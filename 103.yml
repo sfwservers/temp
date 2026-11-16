@@ -69,8 +69,7 @@ spawn_settings:
   spawn_zones: []
   spawn_rooms:
   - EZ_Intercom
-  spawn_roles:
-  - FacilityGuard
+  spawn_roles: []
   spawn_points: []
   required_permission: []
 custom_flags: 
