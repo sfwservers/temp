@@ -32,9 +32,9 @@ stamina:
   usage_multiplier: 1
   infinite: false
 max_scp330_candies: 2
-can_escape: false
+can_escape: true
 role_after_escape:
-  default: InternalRole Spectator
+  default: InternalRole NtfCaptain
 scale:
   x: 1
   y: 1
