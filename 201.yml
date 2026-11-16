@@ -47,11 +47,9 @@ scale:
   x: 1.1
   y: 1.1
   z: 1.1
-spawn_broadcast: >-
-  <allcaps><font="RobotoMono"><cspace=0.1em>\n<line-height>
-  <size=1em>You are <color=#dc143c><b>SCP : Jason Voorhees</b></color></size>\n
-  <size=0.5em>Hunt down all human targets</size>
-  </line-height></cspace></font></allcaps>
+spawn_broadcast: 
+
+  You are <color=orange><b>SCP Jason Voorhees </b></color>!
 spawn_broadcast_duration: 10
 spawn_hint: 
 spawn_hint_duration: 0
