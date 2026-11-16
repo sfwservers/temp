@@ -1,0 +1,80 @@
+id: 105
+name: Containment Scientist
+override_role_name: true
+nickname: 
+custom_info: 
+badge_name: 
+badge_color: 
+role: Scientist
+team: Scientists
+role_appearance: None
+is_friend_of: []
+
+health:
+  amount: 100
+  maximum: 100
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects: []
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 2
+can_escape: true
+role_after_escape:
+  default: InternalRole NtfSpecialist
+  cuffed by InternalTeam ClassD: InternalRole ChaosConscript
+  cuffed by InternalTeam ChaosInsurgency: InternalRole ChaosConscript
+scale:
+  x: 1
+  y: 1
+  z: 1
+spawn_broadcast: >-
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n<line-height>
+  <size=1em>You are a <color=#ffff7c><b>Containment Scientist</b></color></size>\n
+  <size=0.5em>Annoy the Class D with your<color=#ffff7c> amazing skills</color></size>
+  </line-height></cspace></font></allcaps>
+spawn_broadcast_duration: 10
+spawn_hint: 
+spawn_hint_duration: 0
+custom_inventory_limits:
+  Grenade: 5
+inventory:
+- KeycardContainmentEngineer
+- GrenadeFlash
+- GrenadeFlash
+- GrenadeFlash
+- GrenadeFlash
+- GrenadeFlash
+
+custom_items_inventory: []
+ammo: {}
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - Scientist
+  max_players: 4
+  min_players: 0
+  spawn_chance: 50
+  spawn_delay: 0
+  spawn: KeepRoleSpawn
+  spawn_zones: []
+  spawn_rooms: 
+  spawn_roles:
+  - Scientist
+  spawn_points: []
+  required_permission: []
+custom_flags: 
+ignore_spawn_system: false
