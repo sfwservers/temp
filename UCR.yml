@@ -1,0 +1,1471 @@
+id: 101
+name: Janitor
+override_role_name: true
+nickname: 
+custom_info:
+badge_name: 
+badge_color: 
+role: ClassD
+team: ClassD
+role_appearance: None
+is_friend_of: 
+- ChaosInsurgency
+health:
+  amount: 100
+  maximum: 100
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects: []
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 2
+can_escape: true
+role_after_escape:
+  default: InternalRole ChaosConscript
+  cuffed by InternalTeam Scientists: InternalRole NtfPrivate
+  cuffed by InternalTeam FoundationForces: InternalRole NtfPrivate
+scale:
+  x: 1
+  y: 1
+  z: 1
+spawn_broadcast: >-
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are A <color=#ecbbed><b>Janitor</b></color></size>\n
+  <line-height=100%>
+  <size=0.5em>Survive the ordeal with your <color=#ecbbed>Janitor</color> skills</size>
+  </line-height>
+  </cspace></font></allcaps>
+spawn_broadcast_duration: 10
+spawn_hint:
+spawn_hint_duration: 0
+custom_inventory_limits: {}
+inventory:
+- Painkillers
+- KeycardJanitor
+custom_items_inventory: 
+ammo:
+  Ammo9x19: 35
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - ClassD
+  max_players: 4
+  min_players: 0
+  spawn_chance: 50
+  spawn_delay: 0
+  spawn: KeepRoleSpawn
+  spawn_zones: []
+  spawn_rooms:
+  spawn_roles:
+  - ClassD
+  spawn_points: []
+  required_permission: []
+custom_flags: []
+ignore_spawn_system: false
+
+id: 102
+name: Child Janitor
+override_role_name: true
+nickname: 
+custom_info:
+badge_name: 
+badge_color: 
+role: ClassD
+team: ClassD
+role_appearance: None
+is_friend_of: 
+- ChaosInsurgency
+health:
+  amount: 100
+  maximum: 100
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects: []
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 2
+can_escape: true
+role_after_escape:
+  default: InternalRole ChaosConscript
+  cuffed by InternalTeam Scientists: InternalRole NtfPrivate
+  cuffed by InternalTeam FoundationForces: InternalRole NtfPrivate
+scale:
+  x: 0.83
+  y: 0.83
+  z: 0.83
+spawn_broadcast: >-
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are a <color=#895129><b>Child Janitor</b></color></size>\n
+  <line-height=100%>
+  <size=0.5em>Survive the ordeal with your <color=#ecbbed>Janitor</color> skills</size>\n
+  <color=#616060><size=0.3em>How can there be a child among the Class-D's?</size></color>
+  </line-height>
+  </cspace></font></allcaps>
+spawn_broadcast_duration: 10
+spawn_hint:
+spawn_hint_duration: 0
+custom_inventory_limits: {}
+inventory:
+- Painkillers
+- KeycardJanitor
+custom_items_inventory: []
+ammo:
+  Ammo9x19: 35
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - ClassD
+  max_players: 4
+  min_players: 0
+  spawn_chance: 50
+  spawn_delay: 0
+  spawn: KeepRoleSpawn
+  spawn_zones: []
+  spawn_rooms:
+  spawn_roles:
+  - ClassD
+  spawn_points: []
+  required_permission: []
+custom_flags: 
+ignore_spawn_system: false
+
+id: 103
+name: TraitorGuard
+override_role_name: false
+nickname: 
+custom_info:
+badge_name: 
+badge_color: 
+role: FacilityGuard
+team: ClassD
+role_appearance: FacilityGuard
+is_friend_of: 
+- ClassD
+health:
+  amount: 100
+  maximum: 100
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects: []
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 2
+can_escape: true
+role_after_escape:
+  default: Deny
+  cuffed by InternalTeam ChaosInsurgency: InternalRole ChaosConscript
+  cuffed by InternalTeam FoundationStaff: InternalRole NtfPrivate
+scale:
+  x: 1
+  y: 1
+  z: 1
+spawn_broadcast: >-
+  You are a <color=orange><b>Spy</b></color>!
+
+  Blend in with the other guards and rescue ClassD!
+spawn_broadcast_duration: 5
+spawn_hint: This hint will be shown when you will spawn as a Spy!
+spawn_hint_duration: 5
+custom_inventory_limits: {}
+inventory:
+- Flashlight
+- KeycardGuard
+- GunCOM15
+- Medkit
+- ArmorLight
+custom_items_inventory: []
+ammo:
+  Ammo9x19: 10
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - ClassD
+  max_players: 1
+  min_players: 0
+  spawn_chance: 50
+  spawn: RoomsSpawn
+  spawn_zones: []
+  spawn_rooms:
+  - EZ_Intercom
+  spawn_roles:
+  - FacilityGuard
+  spawn_points: []
+  required_permission: []
+custom_flags: 
+ignore_spawn_system: false
+
+id: 104
+name: Obese
+override_role_name: false
+nickname: 
+custom_info:
+badge_name: 
+badge_color: 
+role: ClassD
+team: ClassD
+role_appearance: ClassD
+is_friend_of: 
+- ClassD
+health:
+  amount: 110
+  maximum: 120
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects: []
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 6
+can_escape: true
+role_after_escape:
+  default: InternalRole ChaosConscript
+  cuffed by InternalTeam Scientists: InternalRole NtfPrivate
+  cuffed by InternalTeam FoundationForces: InternalRole NtfPrivate
+scale:
+  x: 1.2
+  y: 0.9
+  z: 1.2
+spawn_broadcast: >-
+  You are <color=orange><b>FAT</b></color>!
+
+  You have more health and can eat all the Candy!
+  
+spawn_broadcast_duration: 5
+spawn_hint: This hint will be shown when you will spawn as a FAT!
+spawn_hint_duration: 5
+custom_inventory_limits: {}
+inventory:
+- Flashlight
+- SCP330
+- SCP330
+- SCP330
+- SCP330
+- SCP330
+custom_items_inventory: []
+ammo:
+  Ammo9x19: 35
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - ClassD
+  max_players: 2
+  min_players: 1
+  spawn_chance: 50
+  spawn_delay: 0
+  spawn: KeepRoleSpawn
+  spawn_zones: []
+  spawn_rooms:
+  spawn_roles:
+  - ClassD
+  spawn_points: []
+  required_permission: []
+custom_flags: 
+ignore_spawn_system: false
+
+id: 105
+name: Containment Scientist
+override_role_name: true
+nickname: 
+custom_info: 
+badge_name: 
+badge_color: 
+role: Scientist
+team: Scientists
+role_appearance: None
+is_friend_of: []
+
+health:
+  amount: 100
+  maximum: 100
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects: []
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 2
+can_escape: true
+role_after_escape:
+  default: InternalRole NtfSpecialist
+  cuffed by InternalTeam ClassD: InternalRole ChaosConscript
+  cuffed by InternalTeam ChaosInsurgency: InternalRole ChaosConscript
+scale:
+  x: 1
+  y: 1
+  z: 1
+spawn_broadcast: >-
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n<line-height>
+  <size=1em>You are a <color=#ffff7c><b>Containment Scientist</b></color></size>\n
+  <size=0.5em>Annoy the Class D with your<color=#ffff7c> amazing skills</color></size>
+  </line-height></cspace></font></allcaps>
+spawn_broadcast_duration: 10
+spawn_hint: 
+spawn_hint_duration: 0
+custom_inventory_limits:
+  Grenade: 5
+inventory:
+- KeycardContainmentEngineer
+- GrenadeFlash
+- GrenadeFlash
+- GrenadeFlash
+- GrenadeFlash
+- GrenadeFlash
+
+custom_items_inventory: []
+ammo: {}
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - Scientist
+  max_players: 4
+  min_players: 0
+  spawn_chance: 50
+  spawn_delay: 0
+  spawn: KeepRoleSpawn
+  spawn_zones: []
+  spawn_rooms: 
+  spawn_roles:
+  - Scientist
+  spawn_points: []
+  required_permission: []
+custom_flags: 
+ignore_spawn_system: false
+
+id: 106
+name: Facility Manager
+override_role_name: true
+nickname: 
+custom_info: 
+badge_name: 
+badge_color: 
+role: Scientist
+team: Scientists
+role_appearance: None
+is_friend_of: []
+
+health:
+  amount: 100
+  maximum: 100
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects: []
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 2
+can_escape: true
+role_after_escape:
+  default: InternalRole NtfCaptain
+  cuffed by InternalTeam ClassD: InternalRole ChaosConscript
+  cuffed by InternalTeam ChaosInsurgency: InternalRole ChaosConscript
+scale:
+  x: 1
+  y: 1
+  z: 1
+spawn_broadcast: >-
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n<line-height>
+  <size=1em>You are the <color=#c0392b><b>Facility Manager</b></color></size>\n
+  <size=0.5em>Survive Heavy Containment</size>
+  </line-height></cspace></font></allcaps>
+spawn_broadcast_duration: 10
+spawn_hint: 
+spawn_hint_duration: 0
+custom_inventory_limits: {}
+inventory:
+- KeycardFacilityManager
+- Medkit
+- Radio
+
+custom_items_inventory: []
+ammo: {}
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - Spectator
+  max_players: 1
+  min_players: 0
+  spawn_chance: 30
+  spawn_delay: 45
+  spawn: ZoneSpawn
+  spawn_zones:
+  - HeavyContainment
+  spawn_rooms: []
+  spawn_roles: []
+  spawn_points: []
+  required_permission: []
+custom_flags: 
+ignore_spawn_system: false
+
+id: 107
+name: Heavy Guard
+override_role_name: true
+nickname: 
+custom_info: 
+badge_name: 
+badge_color: 
+role: FacilityGuard
+team: FoundationForces
+role_appearance: None
+is_friend_of: []
+
+health:
+  amount: 120
+  maximum: 120
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects: []
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 2
+can_escape: false
+role_after_escape:
+  default: InternalRole Spectator
+scale:
+  x: 1
+  y: 1
+  z: 1
+spawn_broadcast: >-
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n<line-height>
+  <size=1em>You are a <color=#70829d><b>Heavy Guard</b></color></size>\n
+  <size=0.5em>Protect the facility with your big iron</size>
+  </line-height></cspace></font></allcaps>
+spawn_broadcast_duration: 10
+spawn_hint: 
+spawn_hint_duration: 0
+custom_inventory_limits: {}
+inventory:
+- GunRevolver
+- KeycardGuard
+- Medkit
+- Radio
+- ArmorHeavy
+
+custom_items_inventory: []
+ammo:
+  Ammo44cal: 24
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - FacilityGuard
+  max_players: 2
+  min_players: 1
+  spawn_chance: 80
+  spawn_delay: 0
+  spawn: KeepRoleSpawn
+  spawn_zones: []
+  spawn_rooms: []
+  spawn_roles:
+  - FacilityGuard
+  spawn_points: []
+  required_permission: []
+custom_flags: 
+ignore_spawn_system: false
+
+id: 108
+name: Containment Officer
+override_role_name: true
+nickname: 
+custom_info:
+badge_name: 
+badge_color: 
+role: FacilityGuard
+team: FoundationForces
+role_appearance: None
+is_friend_of: 
+- Scientists
+health:
+  amount: 100
+  maximum: 100
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects: []
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 3
+can_escape: true
+role_after_escape:
+  default: InternalRole NtfSpecialist
+  cuffed by InternalTeam ChaosInsurgency: InternalRole ChaosConscript
+scale:
+  x: 1
+  y: 1
+  z: 1
+spawn_broadcast: 
+spawn_broadcast_duration: 0
+spawn_hint: 
+spawn_hint_duration: 0
+custom_inventory_limits: 
+  Ammo: 75
+inventory:
+- GunCOM18
+- Medkit
+- ArmorLight
+- GrenadeFlash
+custom_items_inventory: []
+ammo:
+  Ammo9x19: 35
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - FacilityGuard
+  max_players: 5
+  min_players: 1
+  spawn_chance: 40
+  spawn_delay: 0
+  spawn: KeepRoleSpawn
+  spawn_zones: []
+  spawn_rooms: []
+  spawn_roles: []
+  spawn_points: []
+  required_permission: []
+custom_flags: 
+- CustomKeycard: 
+    KeycardType: KeycardCustomMetalCase
+    ItemName: CONTAINMENT OFFICER KEYCARD
+    HolderName: >-
+      Cont. Officer %displayname%
+    CardLabel: CONT. OFFICER
+    PermissionsColor: "#1B1B1B"
+    KeycardColor: "#8702FF"
+    LabelColor: "#FFFFFF"
+    ContainmentLevel: 2
+    ArmoryLevel: 1
+    AdminLevel: 1
+ignore_spawn_system: false
+
+id: 201
+name: Jason Voorhees
+override_role_name: true
+nickname: 
+custom_info: 
+badge_name: SCP : Jason Voorhees
+badge_color: crimson
+role: ClassD
+team: SCPs
+role_appearance: ClassD
+is_friend_of:
+- SCPs
+
+health:
+  amount: 130
+  maximum: 130
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 50
+  maximum: 50
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects:
+- effect_type: DamageReduction
+  duration: -1
+  intensity: 75
+  removable: false
+- effect_type: Sinkhole
+  duration: -1
+  intensity: 255
+  removable: false
+stamina:
+  regen_multiplier: 0.65
+  usage_multiplier: 1.4
+  infinite: false
+max_scp330_candies: 0
+can_escape: false
+role_after_escape:
+  default: Deny
+scale:
+  x: 1.2
+  y: 1.2
+  z: 1.2
+spawn_broadcast: >-
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n<line-height>
+  <size=1em>You are <color=#dc143c><b>SCP : Jason Voorhees</b></color></size>\n
+  <size=0.5em>Hunt down all human targets</size>
+  </line-height></cspace></font></allcaps>
+spawn_broadcast_duration: 10
+spawn_hint: 
+spawn_hint_duration: 0
+custom_inventory_limits:
+  Keycard: 0
+  Medical: 0
+  Radio: 0
+  Firearm: 0
+  Grenade: 0
+  SCPItem: 1
+  SpecialWeapon: 0
+  Ammo: 0
+  Armor: 0
+inventory:
+- SCP1509
+
+custom_items_inventory: []
+ammo: {}
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - Spectator
+  max_players: 1
+  min_players: 0
+  spawn_chance: 30
+  spawn_delay: 30
+  spawn: RoomsSpawn
+  spawn_zones: []
+  spawn_rooms: 
+  - LczClassDSpawn
+  spawn_roles: []
+  spawn_points: []
+  required_permission: []
+custom_flags:
+- DoNotTriggerTeslaGates
+ignore_spawn_system: false
+
+id: 202
+name: Serpents Hands
+override_role_name: true
+nickname: 
+custom_info: Serpents Hands
+badge_name: SCP : Serpents Hands
+badge_color: red
+role: Tutorial
+team: SCPs
+role_appearance: Tutorial
+is_friend_of: []
+- SCPs
+health:
+  amount: 100
+  maximum: 100
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects: []
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 2
+can_escape: false
+role_after_escape:
+  default: InternalRole Spectator
+scale:
+  x: 1
+  y: 1
+  z: 1
+spawn_broadcast: >-
+  <color=red><b>You are the Serpent's Hand!</b></color>
+  Assist the SCPs and eliminate all Foundation and Chaos Insurgency forces.
+spawn_broadcast_duration: 8
+spawn_hint: You are allied with SCPs. Wipe out all human teams.
+spawn_hint_duration: 6
+custom_inventory_limits: {}
+inventory:
+  - KeycardChaosInsurgency
+  - GunAK
+  - Medkit
+  - Painkillers
+  - ArmorCombat
+custom_items_inventory: []
+ammo:
+  Ammo762x39: 120
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+    - Spectator
+  max_players: 3
+  min_players: 3
+  spawn_chance: 100
+  spawn_delay: 720
+  spawn: SpawnPointSpawn
+  spawn_zones: []
+  spawn_rooms: []
+  spawn_roles: []
+  spawn_points:
+    - EZ_Intercom
+required_permission: []
+custom_flags: []
+ignore_spawn_system: false
+
+id: 203
+name: Amber
+override_role_name: false
+nickname: 
+custom_info: Amber
+badge_name: Amber
+badge_color: amber
+role: ClassD
+team: SCPs
+role_appearance: ClassD
+is_friend_of: []
+health:
+  amount: 100
+  maximum: 100
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects:
+- RainbowTaste:1:0
+- Fade:50:0
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 2
+can_escape: true
+role_after_escape:
+  default: InternalRole Scp079
+scale:
+  x: 1
+  y: 1
+  z: 1
+spawn_broadcast: >-
+  You are <color=#FFBF00><b>Amber</b></color>! Escape the facility to play computer!
+spawn_broadcast_duration: 5
+spawn_hint: You are aligned with the SCPs, though they can still damage you. Escape to become SCP-079!
+spawn_hint_duration: 5
+custom_inventory_limits: {}
+inventory:
+- Flashlight
+custom_items_inventory: []
+ammo: {}
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - ClassD
+  max_players: 1
+  min_players: 1
+  spawn_chance: 70
+  spawn: ZonesSpawn
+  spawn_zones:
+  - HeavyContainment
+  spawn_rooms: []
+  spawn_roles: []
+  spawn_points: []
+required_permission: []
+custom_flags:
+  ignore_spawn_system: false
+  
+id: 301
+name: MTF Medic
+override_role_name: false
+nickname: 
+custom_info: MTF Medic
+badge_name: MTF Medic
+badge_color: mint
+role: NtfPrivate
+team: FoundationForces
+role_appearance: NtfPrivate
+is_friend_of: []
+health:
+  amount: 110
+  maximum: 110
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects: []
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 2
+can_escape: false
+role_after_escape:
+  default: InternalRole Spectator
+scale:
+  x: 1
+  y: 1
+  z: 1
+spawn_broadcast: >-
+  You are an <color=#4DFFB8><b>MTF Medic</b></color>! Keep your squad alive!
+spawn_broadcast_duration: 5
+spawn_hint: You spawned with an FSP-9 and 3x SCP-500.
+spawn_hint_duration: 5
+custom_inventory_limits: {}
+inventory:
+- KeycardMTFPrivate
+- GunFSP9
+- Medkit
+- Radio
+- ArmorCombat
+- SCP500
+- SCP500
+- SCP500
+custom_items_inventory: []
+ammo:
+  Ammo9x19: 120
+  Ammo556x45: 40
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - NtfPrivate
+  - NtfSergeant
+  max_players: 2
+  min_players: 1
+  spawn_chance: 50
+  spawn: KeepRoleSpawn
+  spawn_zones: []
+  spawn_rooms: []
+  spawn_roles: []
+  spawn_points: []
+required_permission: []
+custom_flags:
+  ignore_spawn_system: false
+  
+id: 302
+name: MTF Grenadier
+override_role_name: false
+nickname:
+custom_info: MTF Grenadier
+badge_name: MTF Grenadier
+badge_color: orange
+role: NtfPrivate
+team: FoundationForces
+role_appearance: NtfPrivate
+is_friend_of: []
+health:
+  amount: 110
+  maximum: 110
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects:
+- effect_type: Lightweight
+  duration: -1
+  intensity: 50
+  removable: false
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 2
+can_escape: false
+role_after_escape:
+  default: InternalRole Spectator
+scale:
+  x: 1
+  y: 1
+  z: 1
+spawn_broadcast: >-
+  You are an <color=#FF9966><b>MTF Grenadier</b></color>! Clear out hostile rooms with your explosives!
+spawn_broadcast_duration: 5
+spawn_hint: You spawned with extra Frag Grenades 
+spawn_hint_duration: 5
+custom_inventory_limits:
+  Grenade: 4
+inventory:
+- KeycardMTFPrivate
+- GunCrossvec
+- Medkit
+- Radio
+- ArmorCombat
+- GrenadeHE
+- GrenadeHE
+- GrenadeHE
+custom_items_inventory: []
+ammo:
+  Ammo9x19: 120
+  Ammo556x45: 40
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - NtfPrivate
+  - NtfSergeant
+  max_players: 2
+  min_players: 1
+  spawn_chance: 50
+  spawn: KeepRoleSpawn
+  spawn_zones: []
+  spawn_rooms: []
+  spawn_roles: []
+  spawn_points: []
+required_permission: []
+custom_flags:
+  ignore_spawn_system: false
+  
+id: 303
+name: MTF Recon
+override_role_name: false
+nickname: null
+custom_info: MTF Recon
+badge_name: MTF Recon
+badge_color: silver
+role: NtfPrivate
+team: FoundationForces
+role_appearance: NtfPrivate
+is_friend_of: []
+health:
+  amount: 110
+  maximum: 110
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects:
+- effect_type: SilentWalk
+  duration: -1
+  intensity: 100
+  removable: false
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 2
+can_escape: false
+role_after_escape:
+  default: InternalRole Spectator
+scale:
+  x: 1
+  y: 1
+  z: 1
+spawn_broadcast: >-
+  You are <color=#A0A0A0><b>MTF Recon</b></color>! Scout ahead silently!
+spawn_broadcast_duration: 5
+spawn_hint: You have silent footsteps, an FSP-9, and SCP-268.
+spawn_hint_duration: 5
+custom_inventory_limits: {}
+inventory:
+- KeycardMTFPrivate
+- GunFSP9
+- SCP268
+- Medkit
+- Radio
+- ArmorCombat
+custom_items_inventory: []
+ammo:
+  Ammo9x19: 120
+  Ammo556x45: 40
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - NtfPrivate
+  - NtfSergeant
+  max_players: 2
+  min_players: 1
+  spawn_chance: 50
+  spawn: KeepRoleSpawn
+  spawn_zones: []
+  spawn_rooms: []
+  spawn_roles: []
+  spawn_points: []
+required_permission: []
+custom_flags:
+  ignore_spawn_system: false
+  
+id: 304
+name: MTF Support
+override_role_name: false
+nickname: 
+custom_info: MTF Support
+badge_name: MTF Support
+badge_color: cyan
+role: NtfPrivate
+team: FoundationForces
+role_appearance: NtfPrivate
+is_friend_of: []
+health:
+  amount: 120
+  maximum: 120
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects: []
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 2
+can_escape: false
+role_after_escape:
+  default: InternalRole Spectator
+scale:
+  x: 1
+  y: 1
+  z: 1
+spawn_broadcast: >-
+  You are <color=#00B7EB><b>MTF Support</b></color>! Use your Particle Disruptor to break through heavy targets!
+spawn_broadcast_duration: 5
+spawn_hint: Your primary weapon has been replaced with a 3-X Particle Disruptor.
+spawn_hint_duration: 5
+custom_inventory_limits: {}
+inventory:
+- KeycardMTFPrivate
+- ParticleDisruptor
+- Medkit
+- Radio
+- ArmorCombat
+custom_items_inventory: []
+ammo:
+  Ammo9x19: 120
+  Ammo556x45: 40
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - NtfPrivate
+  - NtfSergeant
+  max_players: 1
+  min_players: 1
+  spawn_chance: 30
+  spawn: KeepRoleSpawn
+  spawn_zones: []
+  spawn_rooms: []
+  spawn_roles: []
+  spawn_points: []
+required_permission: []
+custom_flags:
+  ignore_spawn_system: false
+  
+id: 401
+name: Chaos Infiltrator
+override_role_name: false
+nickname:
+custom_info: Chaos Infiltrator
+badge_name: Chaos Infiltrator
+badge_color: teal
+role: ChaosRifleman
+team: ChaosInsurgency
+role_appearance: ChaosRifleman
+is_friend_of: []
+health:
+  amount: 110
+  maximum: 110
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects:
+- effect_type: SilentWalk
+  duration: -1
+  intensity: 100
+  removable: false
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 2
+can_escape: false
+role_after_escape:
+  default: InternalRole Spectator
+scale:
+  x: 1
+  y: 1
+  z: 1
+spawn_broadcast: >-
+  You are a <color=#008080><b>Chaos Infiltrator</b></color>! Sneak behind enemy lines!
+spawn_broadcast_duration: 5
+spawn_hint: You spawned with silent footsteps, an FSP-9, and SCP-268.
+spawn_hint_duration: 5
+custom_inventory_limits: {}
+inventory:
+- KeycardChaosInsurgency
+- GunFSP9
+- SCP268
+- Medkit
+- Painkillers
+- ArmorCombat
+custom_items_inventory: []
+ammo:
+  Ammo9x19: 120
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - ChaosRifleman
+  max_players: 2
+  min_players: 1
+  spawn_chance: 50
+  spawn: KeepRoleSpawn
+  spawn_zones: []
+  spawn_rooms: []
+  spawn_roles: []
+  spawn_points: []
+required_permission: []
+custom_flags:
+  ignore_spawn_system: false
+  
+id: 402
+name: Chaos Child Soldier
+override_role_name: false
+nickname:
+custom_info: 
+badge_name: 
+badge_color: 
+role: ChaosRifleman
+team: ChaosInsurgency
+role_appearance: ChaosRifleman
+is_friend_of: []
+health:
+  amount: 110
+  maximum: 110
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects: []
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 2
+can_escape: false
+role_after_escape:
+  default: InternalRole Spectator
+scale:
+  x: 0.8
+  y: 0.8
+  z: 0.8
+spawn_broadcast: >-
+  You are a <color=#BFFF00><b>Chaos Child Soldier</b></color>! Use your small frame to dodge fire!
+spawn_broadcast_duration: 5
+spawn_hint: Your player model is scaled down to 0.8x size.
+spawn_hint_duration: 5
+custom_inventory_limits: {}
+inventory:
+- KeycardChaosInsurgency
+- GunAK
+- Medkit
+- Painkillers
+- ArmorCombat
+custom_items_inventory: []
+ammo:
+  Ammo762x39: 120
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - ChaosRifleman
+  max_players: 2
+  min_players: 1
+  spawn_chance: 50
+  spawn: KeepRoleSpawn
+  spawn_zones: []
+  spawn_rooms: []
+  spawn_roles: []
+  spawn_points: []
+required_permission: []
+custom_flags:
+  ignore_spawn_system: false
+  
+id: 403
+name: Chaos Chaos
+override_role_name: false
+nickname:
+custom_info: 
+badge_name: 
+badge_color: 
+role: ChaosRifleman
+team: FoundationForces
+role_appearance: ChaosRifleman
+is_friend_of: []
+health:
+  amount: 110
+  maximum: 110
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects: []
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 2
+can_escape: false
+role_after_escape:
+  default: InternalRole Spectator
+scale:
+  x: 1
+  y: 1
+  z: 1
+spawn_broadcast: >-
+  You are <color=#4B5320><b>Chaos Chaos</b></color>! You are an MTF spy disguised as Chaos Insurgency!
+spawn_broadcast_duration: 5
+spawn_hint: You fight for Foundation Forces while wearing a Chaos Rifleman uniform.
+spawn_hint_duration: 5
+custom_inventory_limits: {}
+inventory:
+- KeycardChaosInsurgency
+- GunAK
+- Medkit
+- Painkillers
+- ArmorCombat
+custom_items_inventory: []
+ammo:
+  Ammo762x39: 120
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - ChaosRifleman
+  max_players: 1
+  min_players: 1
+  spawn_chance: 40
+  spawn_delay: 30
+  spawn: KeepRoleSpawn
+  spawn_zones: []
+  spawn_rooms: []
+  spawn_roles: []
+  spawn_points: []
+required_permission: []
+custom_flags:
+  ignore_spawn_system: false
+  
+id: 404
+name: Chaos Juggernaut
+override_role_name: false
+nickname:
+custom_info: 
+badge_name: 
+badge_color: 
+role: ChaosRifleman
+team: ChaosInsurgency
+role_appearance: ChaosRifleman
+is_friend_of: []
+health:
+  amount: 120
+  maximum: 120
+ahp:
+  amount: 20
+  limit: 25
+  decay: 0
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: true
+hume_shield:
+  amount: 20
+  maximum: 20
+  regeneration_amount: 1
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects: []
+stamina:
+  regen_multiplier: 0.7
+  usage_multiplier: 0.7
+  infinite: false
+max_scp330_candies: 2
+can_escape: false
+role_after_escape:
+  default: InternalRole Spectator
+scale:
+  x: 1.2
+  y: 1.2
+  z: 1.2
+spawn_broadcast: >-
+  You are a <color=#50C878><b>Chaos Juggernaut</b></color>! Push the frontline with your extra shields!
+spawn_broadcast_duration: 5
+spawn_hint: You spawned with extra HP and Regen
+spawn_hint_duration: 5
+custom_inventory_limits: {}
+inventory:
+- KeycardChaosInsurgency
+- GunLogicer
+- Medkit
+- ArmorHeavy
+- SCP1853
+- GunLogicer
+custom_items_inventory: []
+ammo:
+  Ammo762x39: 500
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - ChaosRifleman
+  max_players: 1
+  min_players: 1
+  spawn_chance: 40
+  spawn: KeepRoleSpawn
+  spawn_zones: []
+  spawn_rooms: []
+  spawn_roles: []
+  spawn_points: []
+required_permission: []
+custom_flags:
+  ignore_spawn_system: false
+
