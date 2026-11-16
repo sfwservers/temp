@@ -4,7 +4,7 @@ override_role_name: false
 nickname:
 custom_info: Child Soldier
 badge_name: Child Soldier
-badge_color: Mint
+badge_color: cyan
 role: ChaosRifleman
 team: ChaosInsurgency
 role_appearance: ChaosRifleman
