@@ -29,7 +29,7 @@ hume_shield:
 effects: []
 stamina:
   regen_multiplier: 1
-  usage_multiplier: 1
+  usage_multiplier: 2
   infinite: false
 max_scp330_candies: 6
 can_escape: true
