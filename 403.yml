@@ -8,7 +8,8 @@ badge_color:
 role: ChaosRifleman
 team: FoundationForces
 role_appearance: ChaosRifleman
-is_friend_of: []
+is_friend_of: 
+- FoundationForces
 health:
   amount: 110
   maximum: 110
