@@ -63,10 +63,10 @@ spawn_settings:
   max_players: 1
   min_players: 1
   spawn_chance: 70
-  spawn: RoomsSpawn
+  spawn: ZoneSpawn
   spawn_zones: []
   spawn_rooms: 
-  - LCZ_173
+  - LightContainment
   spawn_roles: []
   spawn_points: []
 required_permission: []
