@@ -4,7 +4,7 @@ override_role_name: false
 nickname: 
 custom_info: SCP Amber
 badge_name: SCP Amber
-badge_color: amber
+badge_color: red
 role: ClassD
 team: SCPs
 role_appearance: ClassD
