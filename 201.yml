@@ -22,7 +22,7 @@ ahp:
   persistant: false
 hume_shield:
   amount: 500
-  maximum: 250
+  maximum: 500
   regeneration_amount: 2
   regeneration_delay: 10
   regeneration_speed: 2
