@@ -43,13 +43,13 @@ max_scp330_candies: 0
 can_escape: false
 role_after_escape: {}
 scale:
-  x: 1
-  y: 1
-  z: 1
+  x: 1.1
+  y: 1.1
+  z: 1.1
 spawn_broadcast: >-
   You are <color=#dc143c><b>Lebron Larry</b></color>! Hunt down all human targets.
 spawn_broadcast_duration: 5
-spawn_hint: You are an upgraded SCP-106 with Lightweight and increased speed.
+spawn_hint: You can jump and run!
 spawn_hint_duration: 5
 custom_inventory_limits: {}
 inventory: []
