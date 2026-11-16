@@ -11,8 +11,8 @@ role_appearance: Scp106
 is_friend_of: 
 - SCPs
 health:
-  amount: 2600
-  maximum: 2600
+  amount: 2200
+  maximum: 2200
 ahp:
   amount: 0
   limit: 75
@@ -33,7 +33,7 @@ effects:
   removable: false
 - effect_type: MovementBoost
   duration: -1
-  intensity: 15
+  intensity: 5
   removable: false
 stamina:
   regen_multiplier: 1
@@ -61,7 +61,7 @@ spawn_settings:
   - Scp106
   max_players: 1
   min_players: 1
-  spawn_chance: 50
+  spawn_chance: 30
   spawn: RoleSpawn
   spawn_zones: []
   spawn_rooms: []
