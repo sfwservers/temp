@@ -4,7 +4,7 @@ override_role_name: false
 nickname:
 custom_info: Chaos Infiltrator
 badge_name: Chaos Infiltrator
-badge_color: 
+badge_color: cyan
 role: ChaosRifleman
 team: ChaosInsurgency
 role_appearance: ChaosRifleman
