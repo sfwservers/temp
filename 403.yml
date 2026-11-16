@@ -2,9 +2,9 @@ id: 403
 name: Chaos Chaos
 override_role_name: false
 nickname:
-custom_info: 
-badge_name: 
-badge_color: 
+custom_info: Suspicious Looking Chaos
+badge_name: Suspicious Looking Chaos
+badge_color: Aqua
 role: ChaosRifleman
 team: FoundationForces
 role_appearance: ChaosRifleman
