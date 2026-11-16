@@ -50,7 +50,7 @@ spawn_hint_duration: 5
 custom_inventory_limits:
   Grenade: 4
 inventory:
-- KeycardMTFPrivate
+- KeycardMTFOperative
 - GunCrossvec
 - Medkit
 - Radio
