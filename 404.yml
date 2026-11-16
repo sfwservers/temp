@@ -1,0 +1,71 @@
+id: 404
+name: Chaos Juggernaut
+override_role_name: false
+nickname:
+custom_info: 
+badge_name: 
+badge_color: 
+role: ChaosRifleman
+team: ChaosInsurgency
+role_appearance: ChaosRifleman
+is_friend_of: []
+health:
+  amount: 120
+  maximum: 120
+ahp:
+  amount: 20
+  limit: 25
+  decay: 0
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: true
+hume_shield:
+  amount: 20
+  maximum: 20
+  regeneration_amount: 1
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects: []
+stamina:
+  regen_multiplier: 0.7
+  usage_multiplier: 0.7
+  infinite: false
+max_scp330_candies: 2
+can_escape: false
+role_after_escape:
+  default: InternalRole Spectator
+scale:
+  x: 1.2
+  y: 1.2
+  z: 1.2
+spawn_broadcast: >-
+  You are a <color=#50C878><b>Chaos Juggernaut</b></color>! Push the frontline with your extra shields!
+spawn_broadcast_duration: 5
+spawn_hint: You spawned with extra HP and Regen
+spawn_hint_duration: 5
+custom_inventory_limits: {}
+inventory:
+- KeycardChaosInsurgency
+- GunLogicer
+- Medkit
+- ArmorHeavy
+- SCP1853
+- GunLogicer
+custom_items_inventory: []
+ammo:
+  Ammo762x39: 500
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - ChaosRifleman
+  max_players: 1
+  min_players: 1
+  spawn_chance: 40
+  spawn: KeepRoleSpawn
+  spawn_zones: []
+  spawn_rooms: []
+  spawn_roles: []
+  spawn_points: []
+required_permission: []
+custom_flags:
+  ignore_spawn_system: false
