@@ -28,7 +28,7 @@ hume_shield:
 effects:
 - effect_type: Lightweight
   duration: -1
-  intensity: 50
+  intensity: 150
   removable: false
 stamina:
   regen_multiplier: 1
