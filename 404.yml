@@ -2,9 +2,9 @@ id: 404
 name: Chaos Juggernaut
 override_role_name: false
 nickname:
-custom_info: 
+custom_info: Chaos Juggernaut
 badge_name: Chaos Juggernaut  
-badge_color: 
+badge_color: mint
 role: ChaosRifleman
 team: ChaosInsurgency
 role_appearance: ChaosRifleman
