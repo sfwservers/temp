@@ -52,6 +52,11 @@ spawn_hint_duration: 5
 custom_inventory_limits: {}
 inventory:
 - Flashlight
+- AntiSCP207
+- AntiSCP207
+- AntiSCP207
+- AntiSCP207
+- AntiSCP207
 custom_items_inventory: []
 ammo:
   Ammo9x19: 35
