@@ -52,7 +52,7 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  You are <color=#FFBF00><b>Amber</b></color>! Escape the facility to play computer games!
+  You are <color=#FFBF00><b>Amber</b></color>! Escape the facility to play computer games! (Become 079)
 spawn_broadcast_duration: 5
 spawn_hint: You are aligned with the SCPs. Escape to become SCP-079!
 spawn_hint_duration: 5
