@@ -20,7 +20,7 @@ ahp:
   sustain: 0
   persistant: true
 hume_shield:
-  amount: 10
+  amount: 20
   maximum: 10
   regeneration_amount: 1
   regeneration_delay: 7.5
