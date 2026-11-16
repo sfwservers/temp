@@ -1,0 +1,84 @@
+id: 108
+name: Containment Officer
+override_role_name: true
+nickname: 
+custom_info:
+badge_name: 
+badge_color: 
+role: FacilityGuard
+team: FoundationForces
+role_appearance: None
+is_friend_of: 
+- Scientists
+health:
+  amount: 100
+  maximum: 100
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects: []
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 3
+can_escape: true
+role_after_escape:
+  default: InternalRole NtfSpecialist
+  cuffed by InternalTeam ChaosInsurgency: InternalRole ChaosConscript
+scale:
+  x: 1
+  y: 1
+  z: 1
+spawn_broadcast: 
+spawn_broadcast_duration: 0
+spawn_hint: 
+spawn_hint_duration: 0
+custom_inventory_limits: 
+  Ammo: 75
+inventory:
+- GunCOM18
+- Medkit
+- ArmorLight
+- GrenadeFlash
+custom_items_inventory: []
+ammo:
+  Ammo9x19: 35
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - FacilityGuard
+  max_players: 5
+  min_players: 1
+  spawn_chance: 40
+  spawn_delay: 0
+  spawn: KeepRoleSpawn
+  spawn_zones: []
+  spawn_rooms: []
+  spawn_roles: []
+  spawn_points: []
+  required_permission: []
+custom_flags: 
+- CustomKeycard: 
+    KeycardType: KeycardCustomMetalCase
+    ItemName: CONTAINMENT OFFICER KEYCARD
+    HolderName: >-
+      Cont. Officer %displayname%
+    CardLabel: CONT. OFFICER
+    PermissionsColor: "#1B1B1B"
+    KeycardColor: "#8702FF"
+    LabelColor: "#FFFFFF"
+    ContainmentLevel: 2
+    ArmoryLevel: 1
+    AdminLevel: 1
+ignore_spawn_system: false
