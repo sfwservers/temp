@@ -45,9 +45,9 @@ can_escape: false
 role_after_escape:
   default: Deny
 scale:
-  x: 1.2
-  y: 1.2
-  z: 1.2
+  x: 1.1
+  y: 1.1
+  z: 1.1
 spawn_broadcast: >-
   <allcaps><font="RobotoMono"><cspace=0.1em>\n<line-height>
   <size=1em>You are <color=#dc143c><b>SCP : Jason Voorhees</b></color></size>\n
