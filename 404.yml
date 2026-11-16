@@ -13,31 +13,31 @@ health:
   amount: 120
   maximum: 120
 ahp:
-  amount: 20
-  limit: 25
+  amount: 5
+  limit: 5
   decay: 0
   efficacy: 0.699999988
   sustain: 0
   persistant: true
 hume_shield:
-  amount: 20
-  maximum: 20
+  amount: 10
+  maximum: 10
   regeneration_amount: 1
   regeneration_delay: 7.5
   regeneration_speed: 0
 effects: []
 stamina:
-  regen_multiplier: 0.7
-  usage_multiplier: 0.7
+  regen_multiplier: 0.2
+  usage_multiplier: 0.2
   infinite: false
 max_scp330_candies: 2
 can_escape: false
 role_after_escape:
   default: InternalRole Spectator
 scale:
-  x: 1.2
-  y: 1.2
-  z: 1.2
+  x: 1.1
+  y: 1.1
+  z: 1.1
 spawn_broadcast: >-
   You are a <color=#50C878><b>Chaos Juggernaut</b></color>! Push the frontline with your extra shields!
 spawn_broadcast_duration: 5
