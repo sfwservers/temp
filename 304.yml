@@ -10,8 +10,8 @@ team: FoundationForces
 role_appearance: NtfPrivate
 is_friend_of: []
 health:
-  amount: 120
-  maximum: 120
+  amount: 100
+  maximum: 100
 ahp:
   amount: 0
   limit: 75
