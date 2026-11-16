@@ -11,8 +11,8 @@ role_appearance: Tutorial
 is_friend_of: 
 - SCPs
 health:
-  amount: 90
-  maximum: 90
+  amount: 80
+  maximum: 80
 ahp:
   amount: 0
   limit: 75
