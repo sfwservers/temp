@@ -71,4 +71,4 @@ spawn_settings:
   spawn_roles: []
   spawn_points: []
 required_permission: []
-custom_flags:
+custom_flags:[]
