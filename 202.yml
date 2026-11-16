@@ -8,7 +8,7 @@ badge_color: red
 role: Tutorial
 team: SCPs
 role_appearance: Tutorial
-is_friend_of: []
+is_friend_of: 
 - SCPs
 health:
   amount: 100
