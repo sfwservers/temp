@@ -55,7 +55,6 @@ custom_inventory_limits: {}
 inventory:
 - KeycardChaosInsurgency
 - GunFSP9
-- SCP268
 - Medkit
 - Painkillers
 - ArmorCombat
