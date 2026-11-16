@@ -1,0 +1,74 @@
+id: 202
+name: Serpents Hands
+override_role_name: true
+nickname: 
+custom_info: Serpents Hands
+badge_name: SCP : Serpents Hands
+badge_color: red
+role: Tutorial
+team: SCPs
+role_appearance: Tutorial
+is_friend_of: []
+- SCPs
+health:
+  amount: 100
+  maximum: 100
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects: []
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 2
+can_escape: false
+role_after_escape:
+  default: InternalRole Spectator
+scale:
+  x: 1
+  y: 1
+  z: 1
+spawn_broadcast: >-
+  <color=red><b>You are the Serpent's Hand!</b></color>
+  Assist the SCPs and eliminate all Foundation and Chaos Insurgency forces.
+spawn_broadcast_duration: 8
+spawn_hint: You are allied with SCPs. Wipe out all human teams.
+spawn_hint_duration: 6
+custom_inventory_limits: {}
+inventory:
+  - KeycardChaosInsurgency
+  - GunAK
+  - Medkit
+  - Painkillers
+  - ArmorCombat
+custom_items_inventory: []
+ammo:
+  Ammo762x39: 120
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+    - Spectator
+  max_players: 3
+  min_players: 3
+  spawn_chance: 100
+  spawn_delay: 720
+  spawn: SpawnPointSpawn
+  spawn_zones: []
+  spawn_rooms: []
+  spawn_roles: []
+  spawn_points:
+    - EZ_Intercom
+required_permission: []
+custom_flags: []
+ignore_spawn_system: false
