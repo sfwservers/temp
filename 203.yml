@@ -26,8 +26,14 @@ hume_shield:
   regeneration_delay: 7.5
   regeneration_speed: 0
 effects:
-- RainbowTaste:1:0
-- Fade:50:0
+- effect_type: RainbowTaste 
+  duration: -1
+  intensity: 255
+  removable: false
+- effect_type: Fade 
+  duration: -1
+  intensity: 100
+  removable: false
 stamina:
   regen_multiplier: 1
   usage_multiplier: 1
