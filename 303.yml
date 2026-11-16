@@ -1,7 +1,7 @@
 id: 303
 name: MTF Recon
 override_role_name: false
-nickname: null
+nickname: 
 custom_info: MTF Recon
 badge_name: MTF Recon
 badge_color: silver
@@ -49,7 +49,7 @@ spawn_hint: You have silent footsteps, an FSP-9, and SCP-268.
 spawn_hint_duration: 5
 custom_inventory_limits: {}
 inventory:
-- KeycardMTFPrivate
+- KeycardMTFOperative
 - GunFSP9
 - SCP268
 - Medkit
