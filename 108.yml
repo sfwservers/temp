@@ -2,7 +2,7 @@ id: 108
 name: Containment Officer
 override_role_name: true
 nickname: 
-custom_info:
+custom_info: Containment Officer
 badge_name: 
 badge_color: 
 role: FacilityGuard
