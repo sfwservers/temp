@@ -1,0 +1,70 @@
+id: 402
+name: Chaos Child Soldier
+override_role_name: false
+nickname:
+custom_info: 
+badge_name: 
+badge_color: 
+role: ChaosRifleman
+team: ChaosInsurgency
+role_appearance: ChaosRifleman
+is_friend_of: []
+health:
+  amount: 110
+  maximum: 110
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects: []
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 2
+can_escape: false
+role_after_escape:
+  default: InternalRole Spectator
+scale:
+  x: 0.8
+  y: 0.8
+  z: 0.8
+spawn_broadcast: >-
+  You are a <color=#BFFF00><b>Chaos Child Soldier</b></color>! Use your small frame to dodge fire!
+spawn_broadcast_duration: 5
+spawn_hint: Your player model is scaled down to 0.8x size.
+spawn_hint_duration: 5
+custom_inventory_limits: {}
+inventory:
+- KeycardChaosInsurgency
+- GunAK
+- Medkit
+- Painkillers
+- ArmorCombat
+custom_items_inventory: []
+ammo:
+  Ammo762x39: 120
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - ChaosRifleman
+  max_players: 2
+  min_players: 1
+  spawn_chance: 50
+  spawn: KeepRoleSpawn
+  spawn_zones: []
+  spawn_rooms: []
+  spawn_roles: []
+  spawn_points: []
+required_permission: []
+custom_flags:
+  ignore_spawn_system: false
