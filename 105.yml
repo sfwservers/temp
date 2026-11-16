@@ -65,7 +65,7 @@ damage_multiplier: 1
 spawn_settings:
   can_replace_roles:
   - Scientist
-  max_players: 4
+  max_players: 2
   min_players: 0
   spawn_chance: 50
   spawn_delay: 0
