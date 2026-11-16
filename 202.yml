@@ -11,8 +11,8 @@ role_appearance: Tutorial
 is_friend_of: 
 - SCPs
 health:
-  amount: 100
-  maximum: 100
+  amount: 90
+  maximum: 90
 ahp:
   amount: 0
   limit: 75
@@ -21,11 +21,11 @@ ahp:
   sustain: 0
   persistant: false
 hume_shield:
-  amount: 0
-  maximum: 0
+  amount: 30
+  maximum: 30
   regeneration_amount: 2
   regeneration_delay: 7.5
-  regeneration_speed: 0
+  regeneration_speed: 1
 effects: []
 stamina:
   regen_multiplier: 1
@@ -62,7 +62,7 @@ spawn_settings:
   max_players: 3
   min_players: 3
   spawn_chance: 100
-  spawn_delay: 720
+  spawn_delay: 500
   spawn: SpawnPointSpawn
   spawn_zones: []
   spawn_rooms: []
