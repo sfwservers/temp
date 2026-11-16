@@ -45,7 +45,7 @@ spawn_hint: Your primary weapon has been replaced with a 3-X Particle Disruptor.
 spawn_hint_duration: 5
 custom_inventory_limits: {}
 inventory:
-- KeycardMTFPrivate
+- KeycardMTFOperative
 - ParticleDisruptor
 - Medkit
 - Radio
