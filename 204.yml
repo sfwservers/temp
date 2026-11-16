@@ -69,4 +69,4 @@ spawn_settings:
   - Scp106
   spawn_points: []
 required_permission: []
-custom_flags:
+ignore_spawn_system: false
