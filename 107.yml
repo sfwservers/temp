@@ -40,10 +40,7 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  <allcaps><font="RobotoMono"><cspace=0.1em>\n<line-height>
-  <size=1em>You are a <color=#70829d><b>Heavy Guard</b></color></size>\n
-  <size=0.5em>Protect the facility with your big iron</size>
-  </line-height></cspace></font></allcaps>
+  You are a <color=orange><b>Heavy Guard +HP </b></color>!
 spawn_broadcast_duration: 10
 spawn_hint: 
 spawn_hint_duration: 0
