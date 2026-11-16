@@ -28,8 +28,8 @@ hume_shield:
   regeneration_speed: 0
 effects: []
 stamina:
-  regen_multiplier: 1
-  usage_multiplier: 1
+  regen_multiplier: 0.5
+  usage_multiplier: 0.2
   infinite: false
 max_scp330_candies: 6
 can_escape: true
@@ -52,10 +52,6 @@ spawn_hint_duration: 5
 custom_inventory_limits: {}
 inventory:
 - Flashlight
-- AntiSCP207
-- AntiSCP207
-- AntiSCP207
-- AntiSCP207
 - AntiSCP207
 custom_items_inventory: []
 ammo:
