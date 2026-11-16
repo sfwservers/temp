@@ -10,8 +10,8 @@ team: ChaosInsurgency
 role_appearance: ChaosRifleman
 is_friend_of: []
 health:
-  amount: 110
-  maximum: 110
+  amount: 90
+  maximum: 90
 ahp:
   amount: 0
   limit: 75
