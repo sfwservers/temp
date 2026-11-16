@@ -25,7 +25,7 @@ hume_shield:
   maximum: 500
   regeneration_amount: 2
   regeneration_delay: 10
-  regeneration_speed: 2
+  regeneration_speed: 5
 effects:
 - effect_type: DamageReduction
   duration: -1
