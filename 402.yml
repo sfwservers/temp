@@ -2,9 +2,9 @@ id: 402
 name: Chaos Child Soldier
 override_role_name: false
 nickname:
-custom_info: 
-badge_name: 
-badge_color: 
+custom_info: Child Soldier
+badge_name: Child Soldier
+badge_color: Mint
 role: ChaosRifleman
 team: ChaosInsurgency
 role_appearance: ChaosRifleman
