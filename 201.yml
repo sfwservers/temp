@@ -47,9 +47,9 @@ scale:
   x: 1.1
   y: 1.1
   z: 1.1
-spawn_broadcast: 
-
-  You are <color=orange><b>SCP Jason Voorhees </b></color>!
+spawn_broadcast: >-
+  You are <color=orange><b>SCP Jason Voorhees. Kill everyone. </b></color>!
+  
 spawn_broadcast_duration: 10
 spawn_hint: 
 spawn_hint_duration: 0
