@@ -31,8 +31,8 @@ effects:
   intensity: 100
   removable: false
 stamina:
-  regen_multiplier: 1
-  usage_multiplier: 1
+  regen_multiplier: 1.5
+  usage_multiplier: 1.5
   infinite: false
 max_scp330_candies: 2
 can_escape: false
@@ -45,13 +45,12 @@ scale:
 spawn_broadcast: >-
   You are <color=#A0A0A0><b>MTF Recon</b></color>! Scout ahead silently!
 spawn_broadcast_duration: 5
-spawn_hint: You have silent footsteps, an FSP-9, and SCP-268.
+spawn_hint: You have silent footsteps, an FSP-9, and 2x Stamina.
 spawn_hint_duration: 5
 custom_inventory_limits: {}
 inventory:
 - KeycardMTFOperative
 - GunFSP9
-- SCP268
 - Medkit
 - Radio
 - ArmorCombat
