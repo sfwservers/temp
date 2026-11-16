@@ -1,0 +1,77 @@
+id: 303
+name: MTF Recon
+override_role_name: false
+nickname: null
+custom_info: MTF Recon
+badge_name: MTF Recon
+badge_color: silver
+role: NtfPrivate
+team: FoundationForces
+role_appearance: NtfPrivate
+is_friend_of: []
+health:
+  amount: 110
+  maximum: 110
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects:
+- effect_type: SilentWalk
+  duration: -1
+  intensity: 100
+  removable: false
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 2
+can_escape: false
+role_after_escape:
+  default: InternalRole Spectator
+scale:
+  x: 1
+  y: 1
+  z: 1
+spawn_broadcast: >-
+  You are <color=#A0A0A0><b>MTF Recon</b></color>! Scout ahead silently!
+spawn_broadcast_duration: 5
+spawn_hint: You have silent footsteps, an FSP-9, and SCP-268.
+spawn_hint_duration: 5
+custom_inventory_limits: {}
+inventory:
+- KeycardMTFPrivate
+- GunFSP9
+- SCP268
+- Medkit
+- Radio
+- ArmorCombat
+custom_items_inventory: []
+ammo:
+  Ammo9x19: 120
+  Ammo556x45: 40
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - NtfPrivate
+  - NtfSergeant
+  max_players: 2
+  min_players: 1
+  spawn_chance: 50
+  spawn: KeepRoleSpawn
+  spawn_zones: []
+  spawn_rooms: []
+  spawn_roles: []
+  spawn_points: []
+required_permission: []
+custom_flags:
+  ignore_spawn_system: false
