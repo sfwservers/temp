@@ -42,12 +42,9 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  <allcaps><font="RobotoMono"><cspace=0.1em>\n<line-height>
-  <size=1em>You are a <color=#ffff7c><b>Containment Scientist</b></color></size>\n
-  <size=0.5em>Annoy the Class D with your<color=#ffff7c> amazing skills</color></size>
-  </line-height></cspace></font></allcaps>
+  You are <color=orange><b>Containment Scientist.</b></color>!
 spawn_broadcast_duration: 10
-spawn_hint: 
+spawn_hint: Start flashing
 spawn_hint_duration: 0
 custom_inventory_limits:
   Grenade: 5
