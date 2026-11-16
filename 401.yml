@@ -10,8 +10,8 @@ team: ChaosInsurgency
 role_appearance: ChaosRifleman
 is_friend_of: []
 health:
-  amount: 110
-  maximum: 110
+  amount: 100
+  maximum: 100
 ahp:
   amount: 0
   limit: 75
@@ -29,6 +29,10 @@ effects:
 - effect_type: SilentWalk
   duration: -1
   intensity: 100
+  removable: false
+- effect_type: MovementBoost 
+  duration: -1
+  intensity: 15
   removable: false
 stamina:
   regen_multiplier: 1
