@@ -2,13 +2,14 @@ id: 203
 name: Amber
 override_role_name: false
 nickname: 
-custom_info: Amber
-badge_name: Amber
+custom_info: SCP Amber
+badge_name: SCP Amber
 badge_color: amber
 role: ClassD
 team: SCPs
 role_appearance: ClassD
-is_friend_of: []
+is_friend_of: 
+- SCPs
 health:
   amount: 100
   maximum: 100
@@ -47,9 +48,9 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  You are <color=#FFBF00><b>Amber</b></color>! Escape the facility to play computer!
+  You are <color=#FFBF00><b>Amber</b></color>! Escape the facility to play computer games!
 spawn_broadcast_duration: 5
-spawn_hint: You are aligned with the SCPs, though they can still damage you. Escape to become SCP-079!
+spawn_hint: You are aligned with the SCPs. Escape to become SCP-079!
 spawn_hint_duration: 5
 custom_inventory_limits: {}
 inventory:
