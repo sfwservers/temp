@@ -63,11 +63,11 @@ spawn_settings:
   min_players: 3
   spawn_chance: 100
   spawn_delay: 720
-  spawn: RoomsSpawn
+  spawn: RoleSpawn
   spawn_zones: []
-  spawn_rooms: 
-  - EZ_Intercom
-  spawn_roles: []
+  spawn_rooms: []
+  spawn_roles: 
+  - ChaosRifleman
   spawn_points: []
 required_permission: []
 custom_flags: []
