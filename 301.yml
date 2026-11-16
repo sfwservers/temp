@@ -4,7 +4,7 @@ override_role_name: false
 nickname: 
 custom_info: MTF Medic
 badge_name: MTF Medic
-badge_color: mint
+badge_color: cyan
 role: NtfPrivate
 team: FoundationForces
 role_appearance: NtfPrivate
