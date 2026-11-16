@@ -45,7 +45,6 @@ spawn_broadcast_duration: 0
 spawn_hint: 
 spawn_hint_duration: 0
 custom_inventory_limits: 
-  Ammo: 75
 inventory:
 - GunCOM18
 - Medkit
