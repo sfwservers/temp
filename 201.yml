@@ -10,10 +10,9 @@ team: SCPs
 role_appearance: ClassD
 is_friend_of:
 - SCPs
-
 health:
-  amount: 130
-  maximum: 130
+  amount: 1000
+  maximum: 1000
 ahp:
   amount: 0
   limit: 75
@@ -22,15 +21,15 @@ ahp:
   sustain: 0
   persistant: false
 hume_shield:
-  amount: 50
-  maximum: 50
+  amount: 500
+  maximum: 250
   regeneration_amount: 2
-  regeneration_delay: 7.5
-  regeneration_speed: 0
+  regeneration_delay: 10
+  regeneration_speed: 2
 effects:
 - effect_type: DamageReduction
   duration: -1
-  intensity: 75
+  intensity: 100
   removable: false
 - effect_type: Sinkhole
   duration: -1
