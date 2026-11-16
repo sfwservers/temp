@@ -1,0 +1,74 @@
+id: 104
+name: Obese
+override_role_name: false
+nickname: 
+custom_info:
+badge_name: 
+badge_color: 
+role: ClassD
+team: ClassD
+role_appearance: ClassD
+is_friend_of: 
+- ClassD
+health:
+  amount: 120
+  maximum: 120
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects: []
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 6
+can_escape: true
+role_after_escape:
+  default: InternalRole ChaosConscript
+  cuffed by InternalTeam Scientists: InternalRole NtfPrivate
+  cuffed by InternalTeam FoundationForces: InternalRole NtfPrivate
+scale:
+  x: 1.2
+  y: 0.9
+  z: 1.2
+spawn_broadcast: >-
+  You are <color=orange><b>FAT</b></color>!
+
+  You have more health and can eat all the Candy!
+  
+spawn_broadcast_duration: 5
+spawn_hint: This hint will be shown when you will spawn as a FAT!
+spawn_hint_duration: 5
+custom_inventory_limits: {}
+inventory:
+- Flashlight
+custom_items_inventory: []
+ammo:
+  Ammo9x19: 35
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - ClassD
+  max_players: 2
+  min_players: 1
+  spawn_chance: 50
+  spawn_delay: 0
+  spawn: KeepRoleSpawn
+  spawn_zones: []
+  spawn_rooms:
+  spawn_roles:
+  - ClassD
+  spawn_points: []
+  required_permission: []
+custom_flags: 
+ignore_spawn_system: false
