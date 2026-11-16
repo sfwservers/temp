@@ -1,0 +1,77 @@
+id: 107
+name: Heavy Guard
+override_role_name: true
+nickname: 
+custom_info: 
+badge_name: 
+badge_color: 
+role: FacilityGuard
+team: FoundationForces
+role_appearance: None
+is_friend_of: []
+
+health:
+  amount: 120
+  maximum: 120
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
+effects: []
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 2
+can_escape: false
+role_after_escape:
+  default: InternalRole Spectator
+scale:
+  x: 1
+  y: 1
+  z: 1
+spawn_broadcast: >-
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n<line-height>
+  <size=1em>You are a <color=#70829d><b>Heavy Guard</b></color></size>\n
+  <size=0.5em>Protect the facility with your big iron</size>
+  </line-height></cspace></font></allcaps>
+spawn_broadcast_duration: 10
+spawn_hint: 
+spawn_hint_duration: 0
+custom_inventory_limits: {}
+inventory:
+- GunRevolver
+- KeycardGuard
+- Medkit
+- Radio
+- ArmorHeavy
+
+custom_items_inventory: []
+ammo:
+  Ammo44cal: 24
+damage_multiplier: 1
+spawn_settings:
+  can_replace_roles:
+  - FacilityGuard
+  max_players: 2
+  min_players: 1
+  spawn_chance: 80
+  spawn_delay: 0
+  spawn: KeepRoleSpawn
+  spawn_zones: []
+  spawn_rooms: []
+  spawn_roles:
+  - FacilityGuard
+  spawn_points: []
+  required_permission: []
+custom_flags: 
+ignore_spawn_system: false
