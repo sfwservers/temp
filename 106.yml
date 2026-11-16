@@ -42,10 +42,7 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  <allcaps><font="RobotoMono"><cspace=0.1em>\n<line-height>
-  <size=1em>You are the <color=#c0392b><b>Facility Manager</b></color></size>\n
-  <size=0.5em>Survive Heavy Containment</size>
-  </line-height></cspace></font></allcaps>
+  You are the <color=orange><b>Facility Manager</b></color>!
 spawn_broadcast_duration: 10
 spawn_hint: 
 spawn_hint_duration: 0
