@@ -11,8 +11,8 @@ role_appearance: ClassD
 is_friend_of:
 - SCPs
 health:
-  amount: 1000
-  maximum: 1000
+  amount: 2000
+  maximum: 2000
 ahp:
   amount: 0
   limit: 75
@@ -29,7 +29,7 @@ hume_shield:
 effects:
 - effect_type: DamageReduction
   duration: -1
-  intensity: 100
+  intensity: 90
   removable: false
 - effect_type: Sinkhole
   duration: -1
