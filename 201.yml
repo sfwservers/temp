@@ -35,6 +35,10 @@ effects:
   duration: -1
   intensity: 255
   removable: false
+- effect_type: MovementBoost
+  duration: -1
+  intensity: 50
+  removable: false
 stamina:
   regen_multiplier: 0.65
   usage_multiplier: 1.4
