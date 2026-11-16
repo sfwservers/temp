@@ -64,9 +64,9 @@ spawn_settings:
   min_players: 1
   spawn_chance: 70
   spawn: RoomsSpawn
-  spawn_zones: 
+  spawn_zones: []
+  spawn_rooms: 
   - LCZ_173
-  spawn_rooms: []
   spawn_roles: []
   spawn_points: []
 required_permission: []
