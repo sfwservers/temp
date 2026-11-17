@@ -49,7 +49,7 @@ scale:
 spawn_broadcast: >-
   You are a <color=#008080><b>Chaos Infiltrator</b></color>! Sneak behind enemy lines!
 spawn_broadcast_duration: 5
-spawn_hint: You spawned with silent footsteps, an FSP-9, and SCP-268.
+spawn_hint: You spawned with silent footsteps, an FSP-9.
 spawn_hint_duration: 5
 custom_inventory_limits: {}
 inventory:
