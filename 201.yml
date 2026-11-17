@@ -77,8 +77,8 @@ spawn_settings:
   - Spectator
   max_players: 1
   min_players: 0
-  spawn_chance: 20
-  spawn_delay: 20
+  spawn_chance: 10
+  spawn_delay: 15
   spawn: CompleteRandomSpawn
   spawn_zones: []
   spawn_rooms: []
