@@ -21,15 +21,15 @@ ahp:
   sustain: 0
   persistant: false
 hume_shield:
-  amount: 0
+  amount: 10
   maximum: 0
   regeneration_amount: 2
-  regeneration_delay: 7.5
-  regeneration_speed: 0
+  regeneration_delay: 15
+  regeneration_speed: 1
 effects: []
 stamina:
-  regen_multiplier: 1
-  usage_multiplier: 1
+  regen_multiplier: 2
+  usage_multiplier: 0.5
   infinite: false
 max_scp330_candies: 2
 can_escape: true
@@ -42,7 +42,7 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  You are <color=orange><b>Containment Scientist.</b></color>!
+  You are <color=orange><b>Containment Scientist. More stamina!</b></color>!
 spawn_broadcast_duration: 10
 spawn_hint: Start flashing
 spawn_hint_duration: 0
@@ -50,9 +50,6 @@ custom_inventory_limits:
   Grenade: 5
 inventory:
 - KeycardResearchCoordinator
-- GrenadeFlash
-- GrenadeFlash
-- GrenadeFlash
 - GrenadeFlash
 - GrenadeFlash
 
