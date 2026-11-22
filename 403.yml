@@ -60,9 +60,9 @@ spawn_settings:
   can_replace_roles:
   - ChaosRifleman
   max_players: 1
-  min_players: 1
-  spawn_chance: 40
-  spawn_delay: 30
+  min_players: 
+  spawn_chance: 20
+  spawn_delay: []
   spawn: KeepRoleSpawn
   spawn_zones: []
   spawn_rooms: []
