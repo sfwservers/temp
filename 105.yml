@@ -14,7 +14,7 @@ health:
   amount: 100
   maximum: 100
 ahp:
-  amount: 75
+  amount: 0
   limit: 75
   decay: 1.20000005
   efficacy: 0.699999988
