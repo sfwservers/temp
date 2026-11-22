@@ -3,7 +3,7 @@ name: TraitorGuard
 override_role_name: false
 nickname: 
 custom_info:
-badge_name: 
+badge_name: Suspicious Looking Guard
 badge_color: 
 role: FacilityGuard
 team: ClassD
