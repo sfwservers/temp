@@ -52,9 +52,9 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  You are <color=#FFBF00><b>Amber</b></color>! Escape the facility to play computer games! (Become 079)
+  You are <color=#FFBF00><b>Amber</b></color>! Escape the facility to become Serpents Hands
 spawn_broadcast_duration: 5
-spawn_hint: You are aligned with the SCPs. Escape to become SCP-079!
+spawn_hint: You are aligned with the SCPs. Escape to become Serpents Hands
 spawn_hint_duration: 5
 custom_inventory_limits: {}
 inventory:
@@ -66,11 +66,10 @@ spawn_settings:
   can_replace_roles:
   - ClassD
   max_players: 1
-  min_players: 1
-  spawn_chance: 70
-  spawn: ZoneSpawn
-  spawn_zones:
-  - HeavyContainment
+  min_players: 0
+  spawn_chance: 30
+  spawn: KeepCurrentPositionSpawn
+  spawn_zones: []
   spawn_rooms: []
   spawn_roles: []
   spawn_points: []
