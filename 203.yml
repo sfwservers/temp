@@ -46,7 +46,7 @@ stamina:
 max_scp330_candies: 2
 can_escape: true
 role_after_escape:
-  default: InternalRole Scp079
+  default: CustomRole 202
 scale:
   x: 1
   y: 1
