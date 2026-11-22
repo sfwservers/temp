@@ -14,14 +14,14 @@ health:
   amount: 100
   maximum: 100
 ahp:
-  amount: 0
+  amount: 75
   limit: 75
   decay: 1.20000005
   efficacy: 0.699999988
   sustain: 0
   persistant: false
 hume_shield:
-  amount: 10
+  amount: 5
   maximum: 0
   regeneration_amount: 2
   regeneration_delay: 15
