@@ -11,8 +11,8 @@ role_appearance: FacilityGuard
 is_friend_of: 
 - ClassD
 health:
-  amount: 100
-  maximum: 100
+  amount: 80
+  maximum: 80
 ahp:
   amount: 0
   limit: 75
@@ -21,12 +21,16 @@ ahp:
   sustain: 0
   persistant: false
 hume_shield:
-  amount: 0
-  maximum: 0
+  amount: 20
+  maximum: 20
   regeneration_amount: 2
   regeneration_delay: 7.5
-  regeneration_speed: 0
-effects: []
+  regeneration_speed: 1
+effects: 
+- effect_type: SilentWalk
+  duration: -1
+  intensity: 50
+  removable: false
 stamina:
   regen_multiplier: 1
   usage_multiplier: 1
