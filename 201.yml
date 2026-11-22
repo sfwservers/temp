@@ -5,14 +5,13 @@ nickname: SCP Jason Voorhees
 custom_info: SCP Jason Voorhees
 badge_name: SCP Jason Voorhees
 badge_color: crimson
-role: Scp173
-team: SCPs
+role: Tutorial
+team: OtherAlive
 role_appearance: Tutorial
 is_friend_of:
-- SCPs
 health:
-  amount: 2000
-  maximum: 2000
+  amount: 500
+  maximum: 500
 ahp:
   amount: 0
   limit: 75
@@ -21,8 +20,8 @@ ahp:
   sustain: 0
   persistant: false
 hume_shield:
-  amount: 500
-  maximum: 500
+  amount: 200
+  maximum: 200
   regeneration_amount: 2
   regeneration_delay: 10
   regeneration_speed: 5
@@ -77,7 +76,7 @@ spawn_settings:
   - Spectator
   max_players: 1
   min_players: 0
-  spawn_chance: 10
+  spawn_chance: 20
   spawn_delay: 15
   spawn: CompleteRandomSpawn
   spawn_zones: []
