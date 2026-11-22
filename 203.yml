@@ -68,6 +68,7 @@ spawn_settings:
   max_players: 1
   min_players: 0
   spawn_chance: 30
+  spawn_delay: 5
   spawn: KeepCurrentPositionSpawn
   spawn_zones: []
   spawn_rooms: []
