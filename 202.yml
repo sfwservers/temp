@@ -55,6 +55,7 @@ inventory:
 custom_items_inventory: []
 ammo:
   Ammo762x39: 120
+  Ammo9x19: 120
 damage_multiplier: 1
 spawn_settings:
   can_replace_roles:
