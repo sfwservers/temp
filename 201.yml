@@ -78,7 +78,7 @@ spawn_settings:
   min_players: 0
   spawn_chance: 20
   spawn_delay: 15
-  spawn: CompleteRandomSpawn
+  spawn: ClassDCell
   spawn_zones: []
   spawn_rooms: []
   spawn_roles: []
