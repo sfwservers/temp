@@ -44,7 +44,7 @@ scale:
 spawn_broadcast: >-
   You are <color=orange><b>Containment Scientist. More stamina!</b></color>!
 spawn_broadcast_duration: 10
-spawn_hint: Start flashing
+spawn_hint: Start running!
 spawn_hint_duration: 0
 custom_inventory_limits:
   Grenade: 5
