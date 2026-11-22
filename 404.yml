@@ -50,7 +50,6 @@ inventory:
 - Medkit
 - ArmorHeavy
 - SCP1853
-- GunLogicer
 custom_items_inventory: []
 ammo:
   Ammo762x39: 500
