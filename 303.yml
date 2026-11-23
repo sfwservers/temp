@@ -41,7 +41,7 @@ scale:
 spawn_broadcast: >-
   <allcaps><font="RobotoMono"><cspace=0.1em>\n
   <size=1em>You are the <color=#A0A0A0><b>RECON</b></color> UNIT</size>\n
-  <line-height=100%><size=0.6em>Make safe entry for your team</size>\n
+  <line-height=100%><size=0.6em>Make a safe entry for your team</size>\n
   </line-height>
   </cspace></font></allcaps>
 spawn_broadcast_duration: 10
@@ -63,7 +63,6 @@ damage_multiplier: 1
 spawn_settings:
   can_replace_roles:
   - NtfPrivate
-  - NtfSergeant
   max_players: 1
   min_players: 0
   spawn_chance: 10
