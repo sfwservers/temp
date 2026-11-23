@@ -44,7 +44,7 @@ scale:
 spawn_broadcast: >-
   <allcaps><font="RobotoMono"><cspace=0.1em>\n<line-height>
   <size=1em>You are a <color=#ffff7c><b>Containment Scientist</b></color></size>\n
-  <size=0.5em>Annoy the Class D with your<color=#ffff7c> amazing skills</color></size>
+  <size=0.5em>Cooperate with other Foundation Staff to escape the facility</size>
   </line-height></cspace></font></allcaps>
 spawn_broadcast_duration: 10
 spawn_hint: 
@@ -71,5 +71,5 @@ spawn_settings:
   - Scientist
   spawn_points: []
   required_permission: []
-custom_flags: 
+custom_flags: []
 ignore_spawn_system: false
