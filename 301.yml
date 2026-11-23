@@ -65,7 +65,6 @@ damage_multiplier: 1
 spawn_settings:
   can_replace_roles:
   - NtfPrivate
-  - NtfSergeant
   max_players: 1
   min_players: 0
   spawn_chance: 5
