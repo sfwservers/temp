@@ -2,14 +2,13 @@ id: 203
 name: Amber
 override_role_name: false
 nickname: 
-custom_info: SCP Amber
-badge_name: SCP Amber
-badge_color: crimson
+custom_info:
+badge_name: Amber Tan Wen Hua
+badge_color: tomato
 role: ClassD
 team: SCPs
 role_appearance: ClassD
-is_friend_of: 
-- SCPs
+is_friend_of: []
 health:
   amount: 100
   maximum: 100
@@ -27,17 +26,13 @@ hume_shield:
   regeneration_delay: 7.5
   regeneration_speed: 0
 effects:
-- effect_type: RainbowTaste 
+- effect_type: Rainbow
   duration: -1
-  intensity: 255
+  intensity: 1
   removable: false
-- effect_type: Fade 
+- effect_type: Fade
   duration: -1
-  intensity: 100
-  removable: false
-- effect_type: MovementBoost
-  duration: -1
-  intensity: 15
+  intensity: 50
   removable: false
 stamina:
   regen_multiplier: 1
@@ -46,15 +41,20 @@ stamina:
 max_scp330_candies: 2
 can_escape: true
 role_after_escape:
-  default: CustomRole 202
+  default: InternalRole Scp079
 scale:
   x: 1
   y: 1
   z: 1
 spawn_broadcast: >-
-  You are <color=#FFBF00><b>Amber</b></color>! Escape the facility to become Serpents Hands
-spawn_broadcast_duration: 5
-spawn_hint: You are aligned with the SCPs. Escape to become Serpents Hands
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are <color=#FFBF00><b>AMBER TAN WEN HUA</b></color></size>\n
+  <line-height=100%><size=0.6em>Escape the facility to operate <color=#ff0000>SCP-079</color></size>\n
+  <color=#ffffff><size=0.45em>The <color=#ff0000>SCPs</color> are hostile, but you are beneficial for <color=#ff0000>them</color>.</size></color>
+  </line-height>
+  </cspace></font></allcaps>
+spawn_broadcast_duration: 10
+spawn_hint: You are aligned with the SCPs, though they can still damage you. Escape to become SCP-079!
 spawn_hint_duration: 5
 custom_inventory_limits: {}
 inventory:
@@ -66,14 +66,27 @@ spawn_settings:
   can_replace_roles:
   - ClassD
   max_players: 1
-  min_players: 0
-  spawn_chance: 30
-  spawn_delay: 5
-  spawn: KeepCurrentPositionSpawn
+  min_players: 1
+  spawn_chance: 70
+  spawn: RoomsSpawn
   spawn_zones: []
-  spawn_rooms: []
+  spawn_rooms: 
+  - HCZ_Nuke
+  - HCZ_049
+  - HCZ_939
+  - HCZ_Crossroom_Water
+  - HCZ_Testroom
+  - HCZ_Curve
+  - HCZ_Crossing
+  - HCZ_Intersection
+  - HCZ_Intersection_Junk
+  - HCZ_Corner_Deep
+  - HCZ_Straight
+  - HCZ_Straight_C
+  - HCZ_Straight_PipeRoom
   spawn_roles: []
   spawn_points: []
 required_permission: []
 custom_flags:
-  ignore_spawn_system: false
+  - SilentAnnouncer
+ignore_spawn_system: false

@@ -1,17 +1,17 @@
 id: 201
 name: Jason Voorhees
-override_role_name: true
-nickname: SCP Jason Voorhees
-custom_info: SCP Jason Voorhees
-badge_name: SCP Jason Voorhees
+override_role_name: false
+nickname:
+custom_info: Scp-1346
+badge_name: Jason Voorhees
 badge_color: crimson
-role: Tutorial
-team: OtherAlive
-role_appearance: Tutorial
-is_friend_of:
+role: ClassD
+team: SCPs
+role_appearance: ClassD
+is_friend_of: []
 health:
-  amount: 500
-  maximum: 500
+  amount: 1500
+  maximum: 1500
 ahp:
   amount: 0
   limit: 75
@@ -20,23 +20,15 @@ ahp:
   sustain: 0
   persistant: false
 hume_shield:
-  amount: 200
-  maximum: 200
-  regeneration_amount: 2
-  regeneration_delay: 10
-  regeneration_speed: 5
+  amount: 0
+  maximum: 750
+  regeneration_amount: 30
+  regeneration_delay: 7.5
+  regeneration_speed: 0.3
 effects:
-- effect_type: DamageReduction
-  duration: -1
-  intensity: 90
-  removable: false
 - effect_type: Sinkhole
   duration: -1
   intensity: 255
-  removable: false
-- effect_type: MovementBoost
-  duration: -1
-  intensity: 40
   removable: false
 stamina:
   regen_multiplier: 0.65
@@ -47,12 +39,15 @@ can_escape: false
 role_after_escape:
   default: Deny
 scale:
-  x: 1.1
-  y: 1.1
-  z: 1.1
+  x: 1.2
+  y: 1.2
+  z: 1.2
 spawn_broadcast: >-
-  You are <color=red><b> Jason Voorhees. Everyone can be your enemy</b></color>!
-  
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are <color=#dc143c><b>Jason Voorhees</b></color></size>\n
+  <line-height=100%><size=0.6em>Hunt down all humans within the facility</size>\n
+  </line-height>
+  </cspace></font></allcaps>
 spawn_broadcast_duration: 10
 spawn_hint: 
 spawn_hint_duration: 0
@@ -66,24 +61,31 @@ custom_inventory_limits:
   SpecialWeapon: 0
   Ammo: 0
   Armor: 0
-inventory:
+inventory: 
 - SCP1509
-custom_items_inventory: []
+custom_items_inventory: 
+# - 1346
 ammo: {}
 damage_multiplier: 1
 spawn_settings:
   can_replace_roles:
   - Spectator
-  max_players: 1
+  max_players: 0
   min_players: 0
-  spawn_chance: 20
-  spawn_delay: 15
-  spawn: ClassDCell
+  spawn_chance: 0
+  spawn_delay: 0
+  spawn: KeepRoleSpawn
   spawn_zones: []
   spawn_rooms: []
   spawn_roles: []
   spawn_points: []
   required_permission: []
 custom_flags:
+- DoNotTrigger096
 - DoNotTriggerTeslaGates
+- DropNothingOnDeath
+- DropItemOnDeath:
+  item: SCP1509
+- CustomScpAnnouncer:
+  name: 'SCP-1346'
 ignore_spawn_system: false

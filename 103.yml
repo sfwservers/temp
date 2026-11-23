@@ -1,18 +1,19 @@
+# This is a weird role to balance
 id: 103
 name: TraitorGuard
 override_role_name: false
 nickname: 
 custom_info:
-badge_name: Suspicious Looking Guard
-badge_color: crimson
+badge_name: 
+badge_color: 
 role: FacilityGuard
 team: ClassD
 role_appearance: FacilityGuard
 is_friend_of: 
 - ClassD
 health:
-  amount: 80
-  maximum: 80
+  amount: 100
+  maximum: 100
 ahp:
   amount: 0
   limit: 75
@@ -21,16 +22,12 @@ ahp:
   sustain: 0
   persistant: false
 hume_shield:
-  amount: 20
-  maximum: 20
+  amount: 0
+  maximum: 0
   regeneration_amount: 2
   regeneration_delay: 7.5
-  regeneration_speed: 1
-effects: 
-- effect_type: SilentWalk
-  duration: -1
-  intensity: 50
-  removable: false
+  regeneration_speed: 0
+effects: []
 stamina:
   regen_multiplier: 1
   usage_multiplier: 1
@@ -46,12 +43,14 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  You are a <color=orange><b>Spy</b></color>!
-
-  Blend in with the other guards and rescue ClassD!
-spawn_broadcast_duration: 5
-spawn_hint: This hint will be shown when you will spawn as a Spy!
-spawn_hint_duration: 5
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are a <color=orange><b>Class-D Spy</b></color></size>\n
+  <line-height=100%><size=0.6em>Rescue your fellow <color=orange>Class-D's</color> and help them escape</size>\n
+  </line-height>
+  </cspace></font></allcaps>
+spawn_broadcast_duration: 10
+spawn_hint: 
+spawn_hint_duration: 0
 custom_inventory_limits: {}
 inventory:
 - Flashlight
@@ -66,14 +65,15 @@ damage_multiplier: 1
 spawn_settings:
   can_replace_roles:
   - ClassD
-  max_players: 1
+  max_players: 0
   min_players: 0
-  spawn_chance: 50
+  spawn_chance: 0
   spawn: RoomsSpawn
   spawn_zones: []
   spawn_rooms:
   - EZ_Intercom
-  spawn_roles: []
+  spawn_roles:
+  - FacilityGuard
   spawn_points: []
   required_permission: []
 custom_flags: 

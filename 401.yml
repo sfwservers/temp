@@ -1,10 +1,10 @@
 id: 401
 name: Chaos Infiltrator
-override_role_name: false
+override_role_name: true
 nickname:
-custom_info: Chaos Infiltrator
-badge_name: Chaos Infiltrator
-badge_color: cyan
+custom_info:
+badge_name:
+badge_color:
 role: ChaosRifleman
 team: ChaosInsurgency
 role_appearance: ChaosRifleman
@@ -12,31 +12,18 @@ is_friend_of: []
 health:
   amount: 100
   maximum: 100
-ahp:
-  amount: 0
-  limit: 75
-  decay: 1.20000005
-  efficacy: 0.699999988
-  sustain: 0
-  persistant: false
-hume_shield:
-  amount: 0
-  maximum: 0
-  regeneration_amount: 2
-  regeneration_delay: 7.5
-  regeneration_speed: 0
 effects:
 - effect_type: SilentWalk
-  duration: -1
-  intensity: 100
-  removable: false
-- effect_type: MovementBoost 
-  duration: -1
-  intensity: 15
-  removable: false
+  duration: 10
+  intensity: 10
+  removable: true
+- effect_type: Slowness
+duration: 10
+intensity: 5
+removable: true
 stamina:
   regen_multiplier: 1
-  usage_multiplier: 1
+  usage_multiplier: 2
   infinite: false
 max_scp330_candies: 2
 can_escape: false
@@ -47,31 +34,39 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  You are a <color=#008080><b>Chaos Infiltrator</b></color>! Sneak behind enemy lines!
-spawn_broadcast_duration: 5
-spawn_hint: You spawned with silent footsteps, an FSP-9.
-spawn_hint_duration: 5
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are a <color=#008080><b>Chaos Infiltrator</b></color></size>\n
+  <line-height=100%><size=0.6em>Find a way to sneak inside the facility</size>\n
+  </line-height>
+  </cspace></font></allcaps>
+spawn_broadcast_duration: 10
+spawn_hint: <font=RobotoMono>You have a FSP-9 and undetectable footsteps for a short duration</font>
+spawn_hint_duration: 10
 custom_inventory_limits: {}
 inventory:
-- KeycardChaosInsurgency
+- KeycardGuard
 - GunFSP9
 - Medkit
 - Painkillers
 - ArmorCombat
 custom_items_inventory: []
 ammo:
-  Ammo9x19: 120
+  Ammo9x19: 40
 damage_multiplier: 1
 spawn_settings:
   can_replace_roles:
-  - ChaosRifleman
-  max_players: 2
-  min_players: 1
-  spawn_chance: 50
-  spawn: KeepRoleSpawn
+  - FacilityGuard
+  max_players: 1
+  min_players: 0
+  spawn_chance: 5
+  spawn: RoomsSpawn
   spawn_zones: []
-  spawn_rooms: []
+  spawn_rooms: 
+  - EZ_Shelter
+  - EZ_CollapsedTunnel
+  - EZ_GateB
   spawn_roles: []
   spawn_points: []
 required_permission: []
-custom_flags:
+custom_flags: {}
+ignore_spawn_system: false

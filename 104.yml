@@ -7,18 +7,17 @@ badge_name:
 badge_color: 
 role: ClassD
 team: ClassD
-role_appearance: ClassD
-is_friend_of: 
-- ClassD
+role_appearance:
+is_friend_of: []
 health:
-  amount: 120
-  maximum: 120
+  amount: 100
+  maximum: 100
 ahp:
   amount: 0
   limit: 75
   decay: 1.20000005
   efficacy: 0.699999988
-  sustain: 0
+  sustain: 25
   persistant: false
 hume_shield:
   amount: 0
@@ -29,7 +28,7 @@ hume_shield:
 effects: []
 stamina:
   regen_multiplier: 1
-  usage_multiplier: 2
+  usage_multiplier: 1.5
   infinite: false
 max_scp330_candies: 6
 can_escape: true
@@ -42,17 +41,18 @@ scale:
   y: 0.9
   z: 1.2
 spawn_broadcast: >-
-  You are <color=orange><b>FAT</b></color>!
-
-  You have more health and can eat all the Candy!
-  
-spawn_broadcast_duration: 5
-spawn_hint: This hint will be shown when you will spawn as a FAT!
-spawn_hint_duration: 5
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are <color=orange><b>Obese</b></color></size>\n
+  <line-height=100%><size=0.6em>You like sweets and always prepared with candies </size>\n
+  <color=#616060><size=0.45em>You have diabetes type 3 and won't live long</size></color>
+  </line-height>
+  </cspace></font></allcaps>
+spawn_broadcast_duration: 10
+spawn_hint: 
+spawn_hint_duration: 0
 custom_inventory_limits: {}
 inventory:
 - Flashlight
-- AntiSCP207
 custom_items_inventory: []
 ammo:
   Ammo9x19: 35
@@ -61,8 +61,8 @@ spawn_settings:
   can_replace_roles:
   - ClassD
   max_players: 2
-  min_players: 1
-  spawn_chance: 50
+  min_players: 0
+  spawn_chance: 10
   spawn_delay: 0
   spawn: KeepRoleSpawn
   spawn_zones: []
@@ -72,4 +72,14 @@ spawn_settings:
   spawn_points: []
   required_permission: []
 custom_flags: 
+- FullCandyBag:
+    candies:
+    - Red
+    - Green
+    - Blue
+    - Blue
+    - Yellow
+    - Yellow
+    - Purple
+    - Rainbow
 ignore_spawn_system: false

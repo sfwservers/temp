@@ -1,5 +1,5 @@
 id: 101
-name: Janitor
+name: Class-D Janitor
 override_role_name: true
 nickname: 
 custom_info:
@@ -8,8 +8,7 @@ badge_color:
 role: ClassD
 team: ClassD
 role_appearance: None
-is_friend_of: 
-- ChaosInsurgency
+is_friend_of: []
 health:
   amount: 100
   maximum: 100
@@ -44,8 +43,7 @@ scale:
 spawn_broadcast: >-
   <allcaps><font="RobotoMono"><cspace=0.1em>\n
   <size=1em>You are A <color=#ecbbed><b>Janitor</b></color></size>\n
-  <line-height=100%>
-  <size=0.5em>Survive the ordeal with your <color=#ecbbed>Janitor</color> skills</size>
+  <line-height=100%><size=0.6em>Survive the ordeal with your <color=#ecbbed>Janitor</color> skills</size>
   </line-height>
   </cspace></font></allcaps>
 spawn_broadcast_duration: 10
@@ -53,25 +51,38 @@ spawn_hint:
 spawn_hint_duration: 0
 custom_inventory_limits: {}
 inventory:
-- Painkillers
 - KeycardJanitor
-custom_items_inventory: 
+- Flashlight
+custom_items_inventory: []
 ammo:
   Ammo9x19: 35
 damage_multiplier: 1
 spawn_settings:
   can_replace_roles:
   - ClassD
-  max_players: 4
+  max_players: 5
   min_players: 0
-  spawn_chance: 50
+  spawn_chance: 20
   spawn_delay: 0
   spawn: KeepRoleSpawn
   spawn_zones: []
-  spawn_rooms:
+  spawn_rooms: []
   spawn_roles:
   - ClassD
   spawn_points: []
   required_permission: []
 custom_flags: []
+# - CustomKeycard: 
+#     KeycardType: KeycardCustomSite02
+#     ItemName: JANITOR KEYCARD
+#     HolderName: >-
+#       Mr. %displayname%
+#     CardLabel: JANITOR
+#     PermissionsColor: "#1B1B1B"
+#     KeycardColor: "#ecbbed"
+#     LabelColor: "#1B1B1B"
+#     ContainmentLevel: 1
+#     ArmoryLevel: 0
+#     AdminLevel: 0
+#     WearLevel: 3
 ignore_spawn_system: false

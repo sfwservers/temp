@@ -2,30 +2,27 @@ id: 202
 name: Serpents Hands
 override_role_name: true
 nickname: 
-custom_info: Serpents Hands
-badge_name: Serpents Hands
-badge_color: crimson
+custom_info:
 role: Tutorial
 team: SCPs
 role_appearance: Tutorial
-is_friend_of: 
-- SCPs
+is_friend_of: []
 health:
-  amount: 80
-  maximum: 80
+  amount: 100
+  maximum: 100
 ahp:
-  amount: 0
+  amount: 50
   limit: 75
-  decay: 1.20000005
+  decay: 0.6
   efficacy: 0.699999988
-  sustain: 0
+  sustain: 10
   persistant: false
 hume_shield:
-  amount: 30
-  maximum: 30
+  amount: 0
+  maximum: 0
   regeneration_amount: 2
   regeneration_delay: 7.5
-  regeneration_speed: 1
+  regeneration_speed: 0
 effects: []
 stamina:
   regen_multiplier: 1
@@ -40,36 +37,46 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  <color=red><b>You are the Serpent's Hand!</b></color>
-  Assist the SCPs and eliminate all Foundation and Chaos Insurgency forces.
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are the <color=#4DFFB8><b>Serpents Hands</b></color></size>\n
+  <line-height=100%>
+  <size=0.5em>Assist <color=#ff0000>SCPs</color> and eliminate opposing factions</size>\n
+  </line-height>
+  </cspace></font></allcaps>
 spawn_broadcast_duration: 8
 spawn_hint: You are allied with SCPs. Wipe out all human teams.
 spawn_hint_duration: 6
 custom_inventory_limits: {}
 inventory:
-  - KeycardChaosInsurgency
-  - GunFSP9
-  - Medkit
-  - Painkillers
-  - ArmorCombat
+- GunFSP9
+- Medkit
+- Painkillers
+- Radio
+- ArmorCombat
 custom_items_inventory: []
 ammo:
-  Ammo762x39: 120
   Ammo9x19: 120
 damage_multiplier: 1
 spawn_settings:
   can_replace_roles:
     - Spectator
-  max_players: 3
-  min_players: 3
-  spawn_chance: 100
-  spawn_delay: 720
-  spawn: RoleSpawn
+  max_players: 0
+  min_players: 0
+  spawn_chance: 0
+  spawn_delay: 0
+  spawn: RoomsSpawn
   spawn_zones: []
-  spawn_rooms: []
-  spawn_roles: 
-  - ChaosRifleman
+  spawn_rooms: 
+  - EZ_Intercom
+  - EZ_ThreeWay
+  - EZ_Crossing
+  - EZ_Curve
+  - EZ_Shelter
+  - EZ_CollapsedTunnel
+  - EZ_upstairs
+  spawn_roles: []
   spawn_points: []
 required_permission: []
-custom_flags: []
+custom_flags: 
+- SilentAnnouncer: {}
 ignore_spawn_system: false

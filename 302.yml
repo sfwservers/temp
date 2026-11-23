@@ -2,16 +2,16 @@ id: 302
 name: MTF Grenadier
 override_role_name: false
 nickname:
-custom_info: MTF Grenadier
-badge_name: MTF Grenadier
-badge_color: orange
+custom_info: Breacher Unit
+badge_name:
+badge_color:
 role: NtfPrivate
 team: FoundationForces
-role_appearance: NtfPrivate
+role_appearance:
 is_friend_of: []
 health:
-  amount: 110
-  maximum: 110
+  amount: 100
+  maximum: 100
 ahp:
   amount: 0
   limit: 75
@@ -43,37 +43,42 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  You are an <color=#FF9966><b>MTF Grenadier</b></color>! Clear out hostile rooms with your explosives!
-spawn_broadcast_duration: 5
-spawn_hint: You spawned with extra Frag Grenades 
-spawn_hint_duration: 5
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are the <color=#FF9966><b>BREACHERS</b></color> UNIT</size>\n
+  <line-height=100%><size=0.6em>Dangerously armed with more explosives</size>\n
+  </line-height>
+  </cspace></font></allcaps>
+spawn_broadcast_duration: 10
+spawn_hint: 
+spawn_hint_duration: 0
 custom_inventory_limits:
   Grenade: 4
 inventory:
 - KeycardMTFOperative
-- GunCrossvec
+- GunE11SR
 - Medkit
 - Radio
 - ArmorCombat
 - GrenadeHE
 - GrenadeHE
-- GrenadeHE
-custom_items_inventory: []
+custom_items_inventory: 
+- 104
 ammo:
-  Ammo9x19: 120
-  Ammo556x45: 40
+  Ammo9x19: 40
+  Ammo556x45: 120
 damage_multiplier: 1
 spawn_settings:
   can_replace_roles:
   - NtfPrivate
   - NtfSergeant
-  max_players: 2
-  min_players: 1
-  spawn_chance: 50
+  max_players: 1
+  min_players: 0
+  spawn_chance: 5
   spawn: KeepRoleSpawn
   spawn_zones: []
   spawn_rooms: []
   spawn_roles: []
   spawn_points: []
 required_permission: []
-custom_flags:
+custom_flags: {}
+ignore_spawn_system: false

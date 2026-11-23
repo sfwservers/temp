@@ -1,8 +1,8 @@
 id: 105
 name: Containment Scientist
-override_role_name: true
+override_role_name: false
 nickname: 
-custom_info: 
+custom_info: Research Coordinator
 badge_name: 
 badge_color: 
 role: Scientist
@@ -21,15 +21,15 @@ ahp:
   sustain: 0
   persistant: false
 hume_shield:
-  amount: 5
+  amount: 0
   maximum: 0
   regeneration_amount: 2
-  regeneration_delay: 15
-  regeneration_speed: 1
+  regeneration_delay: 7.5
+  regeneration_speed: 0
 effects: []
 stamina:
-  regen_multiplier: 2
-  usage_multiplier: 0.5
+  regen_multiplier: 1
+  usage_multiplier: 1
   infinite: false
 max_scp330_candies: 2
 can_escape: true
@@ -42,16 +42,18 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  You are <color=orange><b>Containment Scientist. More stamina!</b></color>!
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n<line-height>
+  <size=1em>You are a <color=#ffff7c><b>Containment Scientist</b></color></size>\n
+  <size=0.5em>Annoy the Class D with your<color=#ffff7c> amazing skills</color></size>
+  </line-height></cspace></font></allcaps>
 spawn_broadcast_duration: 10
-spawn_hint: Start running!
+spawn_hint: 
 spawn_hint_duration: 0
 custom_inventory_limits:
   Grenade: 5
 inventory:
 - KeycardResearchCoordinator
-- GrenadeFlash
-- GrenadeFlash
+- Medkit
 
 custom_items_inventory: []
 ammo: {}
@@ -59,9 +61,9 @@ damage_multiplier: 1
 spawn_settings:
   can_replace_roles:
   - Scientist
-  max_players: 2
+  max_players: 1
   min_players: 0
-  spawn_chance: 40
+  spawn_chance: 5
   spawn_delay: 0
   spawn: KeepRoleSpawn
   spawn_zones: []

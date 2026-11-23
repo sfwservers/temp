@@ -1,8 +1,8 @@
 id: 107
 name: Heavy Guard
-override_role_name: true
+override_role_name: false
 nickname: 
-custom_info: Heavy Guard
+custom_info: Heavy Unit
 badge_name: 
 badge_color: 
 role: FacilityGuard
@@ -11,19 +11,19 @@ role_appearance: None
 is_friend_of: []
 
 health:
-  amount: 120
-  maximum: 120
+  amount: 100
+  maximum: 100
 ahp:
   amount: 0
   limit: 75
-  decay: 1.20000005
-  efficacy: 0.699999988
+  decay: 1.3
+  efficacy: 0.7
   sustain: 0
   persistant: false
 hume_shield:
   amount: 0
   maximum: 0
-  regeneration_amount: 2
+  regeneration_amount: 0.0
   regeneration_delay: 7.5
   regeneration_speed: 0
 effects: []
@@ -40,7 +40,11 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  You are a <color=orange><b>Heavy Guard +HP </b></color>!
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are a <color=#70829d><b>Heavy Guard</b></color></size>\n
+  <line-height=100%><size=0.6em>You are more well-equipped than the others</size>\n
+  </line-height>
+  </cspace></font></allcaps>
 spawn_broadcast_duration: 10
 spawn_hint: 
 spawn_hint_duration: 0
@@ -50,7 +54,7 @@ inventory:
 - KeycardGuard
 - Medkit
 - Radio
-- ArmorHeavy
+- ArmorCombat
 
 custom_items_inventory: []
 ammo:
@@ -60,8 +64,8 @@ spawn_settings:
   can_replace_roles:
   - FacilityGuard
   max_players: 2
-  min_players: 1
-  spawn_chance: 80
+  min_players: 0
+  spawn_chance: 5
   spawn_delay: 0
   spawn: KeepRoleSpawn
   spawn_zones: []
@@ -70,5 +74,5 @@ spawn_settings:
   - FacilityGuard
   spawn_points: []
   required_permission: []
-custom_flags: 
+custom_flags: []
 ignore_spawn_system: false

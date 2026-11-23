@@ -1,21 +1,21 @@
 id: 303
 name: MTF Recon
 override_role_name: false
-nickname: 
-custom_info: MTF Recon
-badge_name: MTF Recon
-badge_color: silver
+nickname:
+custom_info: Recon Unit
+badge_name:
+badge_color:
 role: NtfPrivate
 team: FoundationForces
-role_appearance: NtfPrivate
+role_appearance:
 is_friend_of: []
 health:
-  amount: 90
-  maximum: 90
+  amount: 100
+  maximum: 75
 ahp:
   amount: 0
   limit: 75
-  decay: 1.20000005
+  decay: 0.6
   efficacy: 0.699999988
   sustain: 0
   persistant: false
@@ -25,14 +25,10 @@ hume_shield:
   regeneration_amount: 2
   regeneration_delay: 7.5
   regeneration_speed: 0
-effects:
-- effect_type: SilentWalk
-  duration: -1
-  intensity: 100
-  removable: false
+effects: []
 stamina:
-  regen_multiplier: 1.5
-  usage_multiplier: 1.5
+  regen_multiplier: 1
+  usage_multiplier: 1
   infinite: false
 max_scp330_candies: 2
 can_escape: false
@@ -43,33 +39,39 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  You are <color=#A0A0A0><b>MTF Recon</b></color>! Scout ahead silently!
-spawn_broadcast_duration: 5
-spawn_hint: You have silent footsteps, an FSP-9, and 2x Stamina.
-spawn_hint_duration: 5
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are the <color=#A0A0A0><b>RECON</b></color> UNIT</size>\n
+  <line-height=100%><size=0.6em>Make safe entry for your team</size>\n
+  </line-height>
+  </cspace></font></allcaps>
+spawn_broadcast_duration: 10
+spawn_hint: 
+spawn_hint_duration: 0
 custom_inventory_limits: {}
 inventory:
 - KeycardMTFOperative
-- GunFSP9
+- GunRevolver
 - Medkit
 - Radio
 - ArmorCombat
+- GrenadeFlash
 custom_items_inventory: []
 ammo:
-  Ammo9x19: 120
   Ammo556x45: 40
+  Ammo44cal: 24
 damage_multiplier: 1
 spawn_settings:
   can_replace_roles:
   - NtfPrivate
   - NtfSergeant
-  max_players: 2
-  min_players: 1
-  spawn_chance: 50
+  max_players: 1
+  min_players: 0
+  spawn_chance: 10
   spawn: KeepRoleSpawn
   spawn_zones: []
   spawn_rooms: []
   spawn_roles: []
   spawn_points: []
 required_permission: []
-custom_flags:
+custom_flags: {}
+ignore_spawn_system: false

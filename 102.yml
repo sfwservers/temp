@@ -8,18 +8,17 @@ badge_color:
 role: ClassD
 team: ClassD
 role_appearance: None
-is_friend_of: 
-- ChaosInsurgency
+is_friend_of: []
 health:
-  amount: 100
+  amount: 75
   maximum: 100
 ahp:
-  amount: 0
+  amount: 25
   limit: 75
-  decay: 1.20000005
+  decay: 0.0
   efficacy: 0.699999988
   sustain: 0
-  persistant: false
+  persistant: true
 hume_shield:
   amount: 0
   maximum: 0
@@ -44,9 +43,8 @@ scale:
 spawn_broadcast: >-
   <allcaps><font="RobotoMono"><cspace=0.1em>\n
   <size=1em>You are a <color=#895129><b>Child Janitor</b></color></size>\n
-  <line-height=100%>
-  <size=0.5em>Survive the ordeal with your <color=#ecbbed>Janitor</color> skills</size>\n
-  <color=#616060><size=0.3em>How can there be a child among the Class-D's?</size></color>
+  <line-height=100%><size=0.6em>Survive the ordeal with your <color=#ecbbed>Janitor</color> skills</size>\n
+  <color=#616060><size=0.45em>How can there be a child among the Class-D's?</size></color>
   </line-height>
   </cspace></font></allcaps>
 spawn_broadcast_duration: 10
@@ -54,8 +52,8 @@ spawn_hint:
 spawn_hint_duration: 0
 custom_inventory_limits: {}
 inventory:
-- Painkillers
 - KeycardJanitor
+- Painkillers
 custom_items_inventory: []
 ammo:
   Ammo9x19: 35
@@ -63,9 +61,9 @@ damage_multiplier: 1
 spawn_settings:
   can_replace_roles:
   - ClassD
-  max_players: 4
+  max_players: 2
   min_players: 0
-  spawn_chance: 50
+  spawn_chance: 10
   spawn_delay: 0
   spawn: KeepRoleSpawn
   spawn_zones: []
@@ -74,5 +72,17 @@ spawn_settings:
   - ClassD
   spawn_points: []
   required_permission: []
-custom_flags: 
+custom_flags: []
+# - CustomKeycard: 
+#     KeycardType: KeycardCustomSite02
+#     ItemName: CHILD JANITOR KEYCARD
+#     HolderName: >-
+#       CRC. %displayname%
+#     CardLabel: CHILD JANITOR
+#     PermissionsColor: "#1B1B1B"
+#     KeycardColor: "#895129"
+#     LabelColor: "#FFFFFF"
+#     ContainmentLevel: 1
+#     ArmoryLevel: 0
+#     AdminLevel: 0
 ignore_spawn_system: false

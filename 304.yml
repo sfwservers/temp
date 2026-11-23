@@ -2,29 +2,29 @@ id: 304
 name: MTF Support
 override_role_name: false
 nickname: 
-custom_info: MTF Support
-badge_name: MTF Support
-badge_color: cyan
+custom_info: Support Unit
+badge_name:
+badge_color:
 role: NtfPrivate
 team: FoundationForces
 role_appearance: NtfPrivate
 is_friend_of: []
 health:
-  amount: 50
-  maximum: 50
+  amount: 100
+  maximum: 100
 ahp:
   amount: 0
   limit: 75
-  decay: 1.20000005
+  decay: 0.6
   efficacy: 0.699999988
   sustain: 0
   persistant: false
 hume_shield:
-  amount: 70
-  maximum: 70
-  regeneration_amount: 5
-  regeneration_delay: 10
-  regeneration_speed: 1
+  amount: 0
+  maximum: 0
+  regeneration_amount: 2
+  regeneration_delay: 7.5
+  regeneration_speed: 0
 effects: []
 stamina:
   regen_multiplier: 1
@@ -39,33 +39,39 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  You are <color=#00B7EB><b>MTF Support</b></color>! Use your Hume Shield!
-spawn_broadcast_duration: 5
-spawn_hint: You have slightly more health
-spawn_hint_duration: 5
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are the <color=#00B7EB><b>RECON</b></color> UNIT</size>\n
+  <line-height=100%><size=0.6em>Observe the surrounding area... <color=#616060><size=0.4em>Silently</size></color></size>\n
+  </line-height>
+  </cspace></font></allcaps>
+spawn_broadcast_duration: 0
+spawn_hint:
+spawn_hint_duration: 0
 custom_inventory_limits: {}
 inventory:
 - KeycardMTFOperative
-- GunFRMG0
+- GunShotgun
 - Medkit
 - Radio
 - ArmorCombat
-custom_items_inventory: []
+custom_items_inventory: 
+- 125
 ammo:
-  Ammo9x19: 120
-  Ammo556x45: 140
+  Ammo9x19: 40
+  Ammo12gauge: 24
 damage_multiplier: 1
 spawn_settings:
   can_replace_roles:
   - NtfPrivate
   - NtfSergeant
   max_players: 1
-  min_players: 1
-  spawn_chance: 30
+  min_players: 0
+  spawn_chance: 10
   spawn: KeepRoleSpawn
   spawn_zones: []
   spawn_rooms: []
   spawn_roles: []
   spawn_points: []
 required_permission: []
-custom_flags:
+custom_flags: {}
+ignore_spawn_system: false
