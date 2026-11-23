@@ -45,14 +45,15 @@ spawn_broadcast: >-
   <color=#ffffff><size=0.45em>Push the frontline for your team</size></color>
   </line-height>
   </cspace></font></allcaps>
-spawn_broadcast_duration: 5
-spawn_hint: You spawned with extra HP and Regen
-spawn_hint_duration: 5
+spawn_broadcast_duration: 10
+spawn_hint:
+spawn_hint_duration: 0
 custom_inventory_limits: {}
 inventory:
 - KeycardChaosInsurgency
 - GunLogicer
 - Medkit
+- Adrenaline
 - ArmorHeavy
 - SCP1853
 custom_items_inventory: []
@@ -61,7 +62,7 @@ ammo:
 damage_multiplier: 1
 spawn_settings:
   can_replace_roles:
-  - ChaosRifleman
+  - ChaosRepressor
   max_players: 1
   min_players: 1
   spawn_chance: 40
