@@ -54,7 +54,6 @@ custom_inventory_limits:
 inventory:
 - KeycardResearchCoordinator
 - Medkit
-
 custom_items_inventory: []
 ammo: {}
 damage_multiplier: 1
