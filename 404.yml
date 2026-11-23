@@ -57,7 +57,7 @@ inventory:
 - SCP1853
 custom_items_inventory: []
 ammo:
-  Ammo762x39: 500
+  Ammo762x39: 100
 damage_multiplier: 1
 spawn_settings:
   can_replace_roles:
