@@ -63,7 +63,7 @@ damage_multiplier: 1
 spawn_settings:
   can_replace_roles:
   - NtfPrivate
-  max_players: 1
+  max_players: 2
   min_players: 0
   spawn_chance: 10
   spawn: KeepRoleSpawn
