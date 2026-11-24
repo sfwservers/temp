@@ -51,6 +51,7 @@ spawn_hint:
 spawn_hint_duration: 0
 inventory:
 - KeycardResearchCoordinator
+- Adrenaline
 - Medkit
 custom_items_inventory: []
 ammo: {}
