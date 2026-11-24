@@ -65,9 +65,9 @@ spawn_settings:
   can_replace_roles:
   - NtfPrivate
   - NtfSergeant
-  max_players: 1
+  max_players: 2
   min_players: 0
-  spawn_chance: 5
+  spawn_chance: 8
   spawn: KeepRoleSpawn
   spawn_zones: []
   spawn_rooms: []
