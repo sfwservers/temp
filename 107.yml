@@ -50,7 +50,7 @@ spawn_hint:
 spawn_hint_duration: 0
 custom_inventory_limits: {}
 inventory:
-- GunRevolver
+- GunCrossvec
 - KeycardGuard
 - Medkit
 - Radio
@@ -58,7 +58,7 @@ inventory:
 
 custom_items_inventory: []
 ammo:
-  Ammo44cal: 24
+  Ammo9x19: 80
 damage_multiplier: 1
 spawn_settings:
   can_replace_roles:
