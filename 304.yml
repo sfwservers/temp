@@ -41,7 +41,7 @@ scale:
 spawn_broadcast: >-
   <allcaps><font="RobotoMono"><cspace=0.1em>\n
   <size=1em>You are the <color=#00B7EB><b>RECON</b></color> UNIT</size>\n
-  <line-height=100%><size=0.6em>Observe the surrounding area... <color=#616060><size=0.4em>Silently</size></color></size>\n
+  <line-height=100%><size=0.6em>Support your team and clear out enemy factions</color></size>\n
   </line-height>
   </cspace></font></allcaps>
 spawn_broadcast_duration: 0
