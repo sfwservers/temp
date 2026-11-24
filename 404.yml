@@ -65,7 +65,7 @@ spawn_settings:
   - ChaosRepressor
   max_players: 1
   min_players: 0
-  spawn_chance: 20
+  spawn_chance: 10
   spawn: KeepRoleSpawn
   spawn_zones: []
   spawn_rooms: []
