@@ -1,8 +1,8 @@
 id: 105
-name: Containment Scientist
-override_role_name: false
+name: Researcher Supervisor
+override_role_name: true
 nickname: 
-custom_info: Research Coordinator
+custom_info:
 badge_name: 
 badge_color: 
 role: Scientist
