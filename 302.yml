@@ -25,11 +25,7 @@ hume_shield:
   regeneration_amount: 2
   regeneration_delay: 7.5
   regeneration_speed: 0
-effects:
-- effect_type: Lightweight
-  duration: -1
-  intensity: 50
-  removable: false
+effects: []
 stamina:
   regen_multiplier: 1
   usage_multiplier: 1
