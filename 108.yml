@@ -53,6 +53,7 @@ custom_inventory_limits:
 inventory:
 - GunCOM18
 - Medkit
+- Radio
 - ArmorLight
 - GrenadeFlash
 - KeycardZoneManager
