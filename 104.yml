@@ -30,7 +30,7 @@ stamina:
   regen_multiplier: 1
   usage_multiplier: 1.5
   infinite: false
-max_scp330_candies: 6
+max_scp330_candies: 2
 can_escape: true
 role_after_escape:
   default: InternalRole ChaosConscript
