@@ -51,7 +51,7 @@ spawn_hint_duration: 0
 custom_inventory_limits: 
   Ammo: 75
 inventory:
-- GunCOM18
+- GunFSP9
 - Medkit
 - Radio
 - ArmorLight
