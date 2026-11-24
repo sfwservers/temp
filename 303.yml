@@ -11,7 +11,7 @@ role_appearance:
 is_friend_of: []
 health:
   amount: 100
-  maximum: 75
+  maximum: 100
 ahp:
   amount: 0
   limit: 75
