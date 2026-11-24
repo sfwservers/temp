@@ -53,8 +53,8 @@ inventory:
 - GunRevolver
 - Medkit
 - Radio
-- ArmorCombat
 - GrenadeFlash
+- ArmorCombat
 custom_items_inventory: []
 ammo:
   Ammo556x45: 40
