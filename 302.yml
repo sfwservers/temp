@@ -47,8 +47,6 @@ spawn_broadcast: >-
 spawn_broadcast_duration: 10
 spawn_hint: 
 spawn_hint_duration: 0
-custom_inventory_limits:
-  Grenade: 4
 inventory:
 - KeycardMTFOperative
 - GunE11SR
